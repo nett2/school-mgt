@@ -1,0 +1,2926 @@
+# Logfile created on Sun Mar 24 10:39:50 +0100 2013
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-24 10:44:33) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 70ms (View: 29, DB: 19) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-24 10:48:43) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"gJtlir6FfBRZFP+V6tIVrrn4p3/QODK5uWRWVmRucLo=", "controller"=>"user", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed in 121ms (DB: 93) | 302 Found [http://localhost/]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-24 10:48:43) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 1196ms (View: 1115, DB: 69) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing ExamController#index (for 127.0.0.1 at 2013-03-24 10:49:09) [GET]
+  Parameters: {"action"=>"index", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/index
+Completed in 131ms (View: 89, DB: 12) | 200 OK [http://localhost/exam]
+
+
+Processing EmployeeController#admission1 (for 127.0.0.1 at 2013-03-24 10:49:29) [GET]
+  Parameters: {"action"=>"admission1", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/admission1
+Completed in 937ms (View: 610, DB: 71) | 200 OK [http://localhost/employee/admission1]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-03-24 10:50:10) [GET]
+  Parameters: {"action"=>"settings", "controller"=>"configuration"}
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 304ms (View: 179, DB: 68) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing ExamController#generate_reports (for 127.0.0.1 at 2013-03-24 10:50:22) [GET]
+  Parameters: {"action"=>"generate_reports", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/generate_reports
+Completed in 111ms (View: 60, DB: 44) | 200 OK [http://localhost/exam/generate_reports]
+
+
+Processing ScheduledJobsController#index (for 127.0.0.1 at 2013-03-24 10:50:37) [GET]
+  Parameters: {"action"=>"index", "job_object"=>"Batch", "controller"=>"scheduled_jobs", "job_type"=>"1"}
+Rendering template within layouts/application
+Rendering scheduled_jobs/index
+Completed in 81ms (View: 51, DB: 9) | 200 OK [http://localhost/scheduled_jobs/Batch/1]
+
+
+Processing ExamController#create_exam (for 127.0.0.1 at 2013-03-24 10:50:50) [GET]
+  Parameters: {"action"=>"create_exam", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/create_exam
+Completed in 312ms (View: 289, DB: 7) | 200 OK [http://localhost/exam/create_exam]
+
+
+Processing CoursesController#index (for 127.0.0.1 at 2013-03-24 10:51:27) [GET]
+  Parameters: {"action"=>"index", "controller"=>"courses"}
+Rendering template within layouts/application
+Rendering courses/index
+Completed in 98ms (View: 66, DB: 6) | 200 OK [http://localhost/courses]
+
+
+Processing CoursesController#manage_course (for 127.0.0.1 at 2013-03-24 10:51:30) [GET]
+  Parameters: {"action"=>"manage_course", "controller"=>"courses"}
+Rendering template within layouts/application
+Rendering courses/manage_course
+Completed in 60ms (View: 52, DB: 4) | 200 OK [http://localhost/courses/manage_course]
+
+
+Processing CoursesController#new (for 127.0.0.1 at 2013-03-24 10:51:33) [GET]
+  Parameters: {"action"=>"new", "controller"=>"courses"}
+Rendering template within layouts/application
+Rendering courses/new
+Completed in 175ms (View: 107, DB: 52) | 200 OK [http://localhost/courses/new]
+
+
+Processing CoursesController#manage_batches (for 127.0.0.1 at 2013-03-24 10:51:53) [GET]
+  Parameters: {"action"=>"manage_batches", "controller"=>"courses"}
+Rendering template within layouts/application
+Rendering courses/manage_batches
+Completed in 97ms (View: 75, DB: 7) | 200 OK [http://localhost/courses/manage_batches]
+
+
+Processing GradingLevelsController#index (for 127.0.0.1 at 2013-03-24 10:52:45) [GET]
+  Parameters: {"action"=>"index", "controller"=>"grading_levels"}
+Rendering template within layouts/application
+Rendering grading_levels/index
+Completed in 240ms (View: 169, DB: 43) | 200 OK [http://localhost/grading_levels]
+
+
+Processing GradingLevelsController#edit (for 127.0.0.1 at 2013-03-24 10:52:50) [GET]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"gJtlir6FfBRZFP+V6tIVrrn4p3/QODK5uWRWVmRucLo=", "id"=>"1", "controller"=>"grading_levels"}
+Rendering grading_levels/edit
+Completed in 60ms (View: 29, DB: 9) | 200 OK [http://localhost/grading_levels/1/edit?authenticity_token=gJtlir6FfBRZFP%2BV6tIVrrn4p3%2FQODK5uWRWVmRucLo%3D]
+
+
+Processing BatchTransfersController#index (for 127.0.0.1 at 2013-03-24 10:52:59) [GET]
+  Parameters: {"action"=>"index", "controller"=>"batch_transfers"}
+Rendering template within layouts/application
+Rendering batch_transfers/index
+Completed in 268ms (View: 231, DB: 8) | 200 OK [http://localhost/batch_transfers]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2013-03-24 10:53:15) [GET]
+  Parameters: {"action"=>"index", "controller"=>"subjects"}
+Rendering template within layouts/application
+Rendering subjects/index
+Completed in 91ms (View: 63, DB: 8) | 200 OK [http://localhost/subjects]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2013-03-24 10:53:23) [GET]
+  Parameters: {"action"=>"index", "controller"=>"subjects"}
+Rendering template within layouts/application
+Rendering subjects/index
+Completed in 83ms (View: 53, DB: 14) | 200 OK [http://localhost/subjects]
+
+
+Processing UserController#profile (for 127.0.0.1 at 2013-03-24 10:53:27) [GET]
+  Parameters: {"action"=>"profile", "id"=>"admin", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/profile
+Completed in 188ms (View: 102, DB: 71) | 200 OK [http://localhost/user/profile/admin]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-24 10:53:42) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 101ms (View: 79, DB: 9) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2013-03-24 10:54:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"subjects"}
+Rendering template within layouts/application
+Rendering subjects/index
+Completed in 80ms (View: 55, DB: 11) | 200 OK [http://localhost/subjects]
+
+
+Processing TimetableController#new_timetable (for 127.0.0.1 at 2013-03-24 10:54:24) [GET]
+  Parameters: {"action"=>"new_timetable", "controller"=>"timetable"}
+Rendering template within layouts/application
+Rendering timetable/new_timetable
+Completed in 119ms (View: 82, DB: 11) | 200 OK [http://localhost/timetable/new_timetable]
+
+
+Processing ClassTimingsController#index (for 127.0.0.1 at 2013-03-24 10:54:45) [GET]
+  Parameters: {"action"=>"index", "controller"=>"class_timings"}
+Rendering template within layouts/application
+Rendering class_timings/index
+Completed in 169ms (View: 76, DB: 65) | 200 OK [http://localhost/class_timings]
+
+
+Processing ClassTimingsController#new (for 127.0.0.1 at 2013-03-24 10:54:52) [POST]
+  Parameters: {"action"=>"new", "authenticity_token"=>"gJtlir6FfBRZFP+V6tIVrrn4p3/QODK5uWRWVmRucLo=", "controller"=>"class_timings", "_"=>""}
+Rendering class_timings/new
+Completed in 273ms (View: 243, DB: 14) | 200 OK [http://localhost/class_timings/new]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-24 12:07:35) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 107ms (View: 91, DB: 10) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing StudentController#admission1 (for 127.0.0.1 at 2013-03-24 12:07:38) [GET]
+  Parameters: {"action"=>"admission1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/admission1
+Completed in 339ms (View: 154, DB: 129) | 200 OK [http://localhost/student/admission1]
+
+
+Processing FinanceController#index (for 127.0.0.1 at 2013-03-24 12:47:41) [GET]
+  Parameters: {"action"=>"index", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/index
+Completed in 163ms (View: 114, DB: 17) | 200 OK [http://localhost/finance]
+
+
+Processing FinanceController#automatic_transactions (for 127.0.0.1 at 2013-03-24 12:47:51) [GET]
+  Parameters: {"action"=>"automatic_transactions", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/automatic_transactions
+Completed in 277ms (View: 111, DB: 155) | 200 OK [http://localhost/finance/automatic_transactions]
+
+
+Processing FinanceController#categories (for 127.0.0.1 at 2013-03-24 12:48:15) [GET]
+  Parameters: {"action"=>"categories", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/categories
+Completed in 39ms (View: 35, DB: 2) | 200 OK [http://localhost/finance/categories]
+
+
+Processing FinanceController#categories_new (for 127.0.0.1 at 2013-03-24 12:48:27) [POST]
+  Parameters: {"action"=>"categories_new", "authenticity_token"=>"gJtlir6FfBRZFP+V6tIVrrn4p3/QODK5uWRWVmRucLo=", "controller"=>"finance", "_"=>""}
+Rendering finance/categories_new
+Completed in 31ms (View: 18, DB: 6) | 200 OK [http://localhost/finance/categories_new]
+
+
+Processing FinanceController#transactions (for 127.0.0.1 at 2013-03-24 12:48:45) [GET]
+  Parameters: {"action"=>"transactions", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/transactions
+Completed in 91ms (View: 83, DB: 2) | 200 OK [http://localhost/finance/transactions]
+
+
+Processing FinanceController#compare_report (for 127.0.0.1 at 2013-03-24 12:48:51) [GET]
+  Parameters: {"action"=>"compare_report", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/compare_report
+Completed in 91ms (View: 71, DB: 7) | 200 OK [http://localhost/finance/compare_report]
+
+
+Processing FinanceController#report_compare (for 127.0.0.1 at 2013-03-24 12:49:01) [POST]
+  Parameters: {"start_date"=>"24-03-2013", "commit"=>"► Get Report", "end_date2"=>"24-03-2013", "action"=>"report_compare", "authenticity_token"=>"gJtlir6FfBRZFP+V6tIVrrn4p3/QODK5uWRWVmRucLo=", "controller"=>"finance", "end_date"=>"24-03-2013", "start_date2"=>"24-03-2013"}
+Rendering template within layouts/application
+Rendering finance/report_compare
+Completed in 354ms (View: 98, DB: 198) | 200 OK [http://localhost/finance/report_compare]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-03-24 12:49:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/finance/report_compare.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing FinanceController#graph_for_compare_monthly_report (for 127.0.0.1 at 2013-03-24 12:49:03) [GET]
+  Parameters: {"start_date"=>"2013-03-24", "end_date2"=>"2013-03-24", "action"=>"graph_for_compare_monthly_report", "controller"=>"finance", "end_date"=>"2013-03-24", "start_date2"=>"2013-03-24"}
+Completed in 49ms (View: 1, DB: 14) | 200 OK [http://localhost/finance/graph_for_compare_monthly_report?start_date=2013-03-24&end_date=2013-03-24&start_date2=2013-03-24&end_date2=2013-03-24]
+
+
+Processing FinanceController#monthly_report (for 127.0.0.1 at 2013-03-24 12:49:53) [GET]
+  Parameters: {"action"=>"monthly_report", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/monthly_report
+Completed in 82ms (View: 64, DB: 8) | 200 OK [http://localhost/finance/monthly_report]
+
+
+Processing FinanceController#update_monthly_report (for 127.0.0.1 at 2013-03-24 12:49:56) [POST]
+  Parameters: {"start_date"=>"24-03-2013", "commit"=>"► Display Report", "action"=>"update_monthly_report", "authenticity_token"=>"gJtlir6FfBRZFP+V6tIVrrn4p3/QODK5uWRWVmRucLo=", "controller"=>"finance", "end_date"=>"24-03-2013"}
+Rendering template within layouts/application
+Rendering finance/update_monthly_report
+Completed in 152ms (View: 94, DB: 22) | 200 OK [http://localhost/finance/update_monthly_report]
+
+
+Processing FinanceController#graph_for_update_monthly_report (for 127.0.0.1 at 2013-03-24 12:49:56) [GET]
+  Parameters: {"start_date"=>"2013-03-24", "action"=>"graph_for_update_monthly_report", "controller"=>"finance", "end_date"=>"2013-03-24"}
+Completed in 52ms (View: 1, DB: 17) | 200 OK [http://localhost/finance/graph_for_update_monthly_report?start_date=2013-03-24&end_date=2013-03-24]
+
+
+Processing FinanceController#expense_create (for 127.0.0.1 at 2013-03-24 12:50:11) [GET]
+  Parameters: {"action"=>"expense_create", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/expense_create
+Completed in 125ms (View: 91, DB: 17) | 200 OK [http://localhost/finance/expense_create]
+
+
+Processing FinanceController#monthly_report (for 127.0.0.1 at 2013-03-24 12:50:21) [GET]
+  Parameters: {"action"=>"monthly_report", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/monthly_report
+Completed in 70ms (View: 56, DB: 6) | 200 OK [http://localhost/finance/monthly_report]
+
+
+Processing FinanceController#fees_index (for 127.0.0.1 at 2013-03-24 12:50:32) [GET]
+  Parameters: {"action"=>"fees_index", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/fees_index
+Completed in 119ms (View: 90, DB: 12) | 200 OK [http://localhost/finance/fees_index]
+
+
+Processing FinanceController#master_fees (for 127.0.0.1 at 2013-03-24 12:50:37) [GET]
+  Parameters: {"action"=>"master_fees", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/master_fees
+Completed in 202ms (View: 53, DB: 135) | 200 OK [http://localhost/finance/master_fees]
+
+
+Processing FinanceController#master_category_new (for 127.0.0.1 at 2013-03-24 12:50:43) [POST]
+  Parameters: {"action"=>"master_category_new", "authenticity_token"=>"gJtlir6FfBRZFP+V6tIVrrn4p3/QODK5uWRWVmRucLo=", "controller"=>"finance", "_"=>""}
+Rendering finance/master_category_new
+Completed in 77ms (View: 50, DB: 9) | 200 OK [http://localhost/finance/master_category_new]
+
+
+Processing FinanceController#fees_particulars_new (for 127.0.0.1 at 2013-03-24 12:50:49) [GET]
+  Parameters: {"action"=>"fees_particulars_new", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/fees_particulars_new
+Completed in 138ms (View: 112, DB: 11) | 200 OK [http://localhost/finance/fees_particulars_new]
+
+
+Processing FinanceController#master_fees (for 127.0.0.1 at 2013-03-24 12:51:00) [GET]
+  Parameters: {"action"=>"master_fees", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/master_fees
+Completed in 92ms (View: 64, DB: 12) | 200 OK [http://localhost/finance/master_fees]
+
+
+Processing FinanceController#fee_discounts (for 127.0.0.1 at 2013-03-24 12:51:03) [GET]
+  Parameters: {"action"=>"fee_discounts", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/fee_discounts
+Completed in 285ms (View: 259, DB: 10) | 200 OK [http://localhost/finance/fee_discounts]
+
+
+Processing FinanceController#fee_discount_new (for 127.0.0.1 at 2013-03-24 12:51:08) [GET]
+  Parameters: {"action"=>"fee_discount_new", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/fee_discount_new
+Completed in 93ms (View: 68, DB: 7) | 200 OK [http://localhost/finance/fee_discount_new]
+
+
+Processing FinanceController#fee_collection (for 127.0.0.1 at 2013-03-24 12:51:32) [GET]
+  Parameters: {"action"=>"fee_collection", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/fee_collection
+Completed in 92ms (View: 66, DB: 9) | 200 OK [http://localhost/finance/fee_collection]
+
+
+Processing FinanceController#fee_collection_new (for 127.0.0.1 at 2013-03-24 12:51:37) [GET]
+  Parameters: {"action"=>"fee_collection_new", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/fee_collection_new
+Completed in 240ms (View: 95, DB: 125) | 200 OK [http://localhost/finance/fee_collection_new]
+
+
+Processing FinanceController#fees_student_structure_search (for 127.0.0.1 at 2013-03-24 12:51:49) [GET]
+  Parameters: {"action"=>"fees_student_structure_search", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/fees_student_structure_search
+Completed in 83ms (View: 59, DB: 8) | 200 OK [http://localhost/finance/fees_student_structure_search]
+
+
+Processing FinanceController#master_fees (for 127.0.0.1 at 2013-03-24 12:52:03) [GET]
+  Parameters: {"action"=>"master_fees", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/master_fees
+Completed in 96ms (View: 68, DB: 11) | 200 OK [http://localhost/finance/master_fees]
+
+
+Processing FinanceController#fee_collection (for 127.0.0.1 at 2013-03-24 12:52:20) [GET]
+  Parameters: {"action"=>"fee_collection", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/fee_collection
+Completed in 45ms (View: 30, DB: 5) | 200 OK [http://localhost/finance/fee_collection]
+
+
+Processing FinanceController#fee_collection_view (for 127.0.0.1 at 2013-03-24 12:52:24) [GET]
+  Parameters: {"action"=>"fee_collection_view", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/fee_collection_view
+Completed in 91ms (View: 66, DB: 9) | 200 OK [http://localhost/finance/fee_collection_view]
+
+
+Processing FinanceController#fees_submission_index (for 127.0.0.1 at 2013-03-24 12:52:42) [GET]
+  Parameters: {"action"=>"fees_submission_index", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/fees_submission_index
+Completed in 90ms (View: 64, DB: 8) | 200 OK [http://localhost/finance/fees_submission_index]
+
+
+Processing FinanceController#fees_submission_batch (for 127.0.0.1 at 2013-03-24 12:52:47) [GET]
+  Parameters: {"action"=>"fees_submission_batch", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/fees_submission_batch
+Completed in 270ms (View: 253, DB: 7) | 200 OK [http://localhost/finance/fees_submission_batch]
+
+
+Processing FinanceController#fees_student_search (for 127.0.0.1 at 2013-03-24 12:52:56) [GET]
+  Parameters: {"action"=>"fees_student_search", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/fees_student_search
+Completed in 86ms (View: 61, DB: 8) | 200 OK [http://localhost/finance/fees_student_search]
+
+
+Processing FinanceController#automatic_transactions (for 127.0.0.1 at 2013-03-24 12:53:13) [GET]
+  Parameters: {"action"=>"automatic_transactions", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/automatic_transactions
+Completed in 111ms (View: 83, DB: 11) | 200 OK [http://localhost/finance/automatic_transactions]
+
+
+Processing FinanceController#asset_liability (for 127.0.0.1 at 2013-03-24 12:53:31) [GET]
+  Parameters: {"action"=>"asset_liability", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/asset_liability
+Completed in 73ms (View: 64, DB: 3) | 200 OK [http://localhost/finance/asset_liability]
+
+
+Processing FinanceController#asset (for 127.0.0.1 at 2013-03-24 12:53:33) [GET]
+  Parameters: {"action"=>"asset", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/asset
+Completed in 130ms (View: 105, DB: 9) | 200 OK [http://localhost/finance/asset]
+
+
+Processing FinanceController#view_asset (for 127.0.0.1 at 2013-03-24 12:53:40) [GET]
+  Parameters: {"action"=>"view_asset", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/view_asset
+Completed in 154ms (View: 67, DB: 67) | 200 OK [http://localhost/finance/view_asset]
+
+
+Processing ExamController#index (for 127.0.0.1 at 2013-03-24 12:54:29) [GET]
+  Parameters: {"action"=>"index", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/index
+Completed in 93ms (View: 69, DB: 7) | 200 OK [http://localhost/exam]
+
+
+Processing ExamController#settings (for 127.0.0.1 at 2013-03-24 12:54:33) [GET]
+  Parameters: {"action"=>"settings", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/settings
+Completed in 116ms (View: 89, DB: 12) | 200 OK [http://localhost/exam/settings]
+
+
+Processing GradingLevelsController#index (for 127.0.0.1 at 2013-03-24 12:54:37) [GET]
+  Parameters: {"action"=>"index", "controller"=>"grading_levels"}
+Rendering template within layouts/application
+Rendering grading_levels/index
+Completed in 327ms (View: 299, DB: 14) | 200 OK [http://localhost/grading_levels]
+
+
+Processing GradingLevelsController#index (for 127.0.0.1 at 2013-03-24 12:54:37) [GET]
+  Parameters: {"action"=>"index", "controller"=>"grading_levels"}
+Rendering template within layouts/application
+Rendering grading_levels/index
+Completed in 155ms (View: 128, DB: 14) | 200 OK [http://localhost/grading_levels]
+
+
+Processing ClassDesignationsController#index (for 127.0.0.1 at 2013-03-24 12:54:52) [GET]
+  Parameters: {"action"=>"index", "controller"=>"class_designations"}
+Rendering template within layouts/application
+Rendering class_designations/index
+Completed in 84ms (View: 50, DB: 7) | 200 OK [http://localhost/class_designations]
+
+
+Processing RankingLevelsController#index (for 127.0.0.1 at 2013-03-24 12:55:00) [GET]
+  Parameters: {"action"=>"index", "controller"=>"ranking_levels"}
+Rendering template within layouts/application
+Rendering ranking_levels/index
+Completed in 101ms (View: 59, DB: 12) | 200 OK [http://localhost/ranking_levels]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-24 12:55:28) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 119ms (View: 93, DB: 11) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing UserController#index (for 127.0.0.1 at 2013-03-24 12:55:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/index
+Completed in 91ms (View: 71, DB: 11) | 200 OK [http://localhost/user]
+
+
+Processing UserController#create (for 127.0.0.1 at 2013-03-24 12:55:34) [GET]
+  Parameters: {"action"=>"create", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/create
+Completed in 95ms (View: 78, DB: 5) | 200 OK [http://localhost/user/create]
+
+
+Processing UserController#all (for 127.0.0.1 at 2013-03-24 12:55:47) [GET]
+  Parameters: {"action"=>"all", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/all
+Completed in 90ms (View: 72, DB: 7) | 200 OK [http://localhost/user/all]
+
+
+Processing UserController#list_user (for 127.0.0.1 at 2013-03-24 12:55:52) [POST]
+  Parameters: {"action"=>"list_user", "authenticity_token"=>"gJtlir6FfBRZFP+V6tIVrrn4p3/QODK5uWRWVmRucLo=", "user_type"=>"Student", "controller"=>"user", "_"=>""}
+Completed in 30ms (View: 21, DB: 3) | 200 OK [http://localhost/user/list_user]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-24 12:56:12) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 115ms (View: 92, DB: 8) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing UserController#index (for 127.0.0.1 at 2013-03-24 12:56:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/index
+Completed in 72ms (View: 57, DB: 5) | 200 OK [http://localhost/user]
+
+
+Processing UserController#all (for 127.0.0.1 at 2013-03-24 12:56:24) [GET]
+  Parameters: {"action"=>"all", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/all
+Completed in 49ms (View: 32, DB: 6) | 200 OK [http://localhost/user/all]
+
+
+Processing UserController#list_user (for 127.0.0.1 at 2013-03-24 12:56:28) [POST]
+  Parameters: {"action"=>"list_user", "authenticity_token"=>"gJtlir6FfBRZFP+V6tIVrrn4p3/QODK5uWRWVmRucLo=", "user_type"=>"Parent", "controller"=>"user", "_"=>""}
+Completed in 38ms (View: 21, DB: 6) | 200 OK [http://localhost/user/list_user]
+
+
+Processing UserController#create (for 127.0.0.1 at 2013-03-24 12:56:44) [GET]
+  Parameters: {"action"=>"create", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/create
+Completed in 91ms (View: 73, DB: 10) | 200 OK [http://localhost/user/create]
+
+
+Processing StudentController#index (for 127.0.0.1 at 2013-03-24 12:56:55) [GET]
+  Parameters: {"action"=>"index", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/index
+Completed in 93ms (View: 71, DB: 6) | 200 OK [http://localhost/student]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-24 12:57:00) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 120ms (View: 97, DB: 9) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing ConfigurationController#index (for 127.0.0.1 at 2013-03-24 12:57:07) [GET]
+  Parameters: {"action"=>"index", "controller"=>"configuration"}
+Rendering template within layouts/application
+Rendering configuration/index
+Completed in 125ms (View: 103, DB: 7) | 200 OK [http://localhost/configuration]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-03-24 12:57:18) [GET]
+  Parameters: {"action"=>"settings", "controller"=>"configuration"}
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 184ms (View: 99, DB: 36) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2013-03-24 12:57:43) [GET]
+  Parameters: {"action"=>"index", "controller"=>"subjects"}
+Rendering template within layouts/application
+Rendering subjects/index
+Completed in 84ms (View: 62, DB: 9) | 200 OK [http://localhost/subjects]
+
+
+Processing StudentController#categories (for 127.0.0.1 at 2013-03-24 12:57:55) [GET]
+  Parameters: {"action"=>"categories", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/categories
+Completed in 111ms (View: 74, DB: 19) | 200 OK [http://localhost/student/categories]
+
+
+Processing StudentController#admission1 (for 127.0.0.1 at 2013-03-24 12:58:08) [GET]
+  Parameters: {"action"=>"admission1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/admission1
+Completed in 209ms (View: 174, DB: 16) | 200 OK [http://localhost/student/admission1]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-24 12:58:55) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 117ms (View: 94, DB: 10) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing UserController#index (for 127.0.0.1 at 2013-03-24 12:58:58) [GET]
+  Parameters: {"action"=>"index", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/index
+Completed in 73ms (View: 56, DB: 6) | 200 OK [http://localhost/user]
+
+
+Processing UserController#all (for 127.0.0.1 at 2013-03-24 12:59:06) [GET]
+  Parameters: {"action"=>"all", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/all
+Completed in 287ms (View: 268, DB: 9) | 200 OK [http://localhost/user/all]
+
+
+Processing UserController#list_user (for 127.0.0.1 at 2013-03-24 12:59:17) [POST]
+  Parameters: {"action"=>"list_user", "authenticity_token"=>"gJtlir6FfBRZFP+V6tIVrrn4p3/QODK5uWRWVmRucLo=", "user_type"=>"Parent", "controller"=>"user", "_"=>""}
+Completed in 31ms (View: 15, DB: 6) | 200 OK [http://localhost/user/list_user]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2013-03-24 12:59:31) [GET]
+  Parameters: {"action"=>"logout", "controller"=>"user"}
+Redirected to http://localhost:3000/
+Completed in 21ms (DB: 5) | 302 Found [http://localhost/user/logout]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-24 12:59:31) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 35ms (View: 27, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-25 17:01:26) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 1320ms (View: 49, DB: 77) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-25 17:02:00) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "controller"=>"user", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed in 105ms (DB: 86) | 302 Found [http://localhost/]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-25 17:02:00) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 1229ms (View: 1153, DB: 63) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing StudentController#index (for 127.0.0.1 at 2013-03-25 17:02:10) [GET]
+  Parameters: {"action"=>"index", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/index
+Completed in 126ms (View: 89, DB: 10) | 200 OK [http://localhost/student]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-25 17:02:13) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 275ms (View: 251, DB: 9) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing StudentController#admission1 (for 127.0.0.1 at 2013-03-25 17:02:16) [GET]
+  Parameters: {"action"=>"admission1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/admission1
+Completed in 1226ms (View: 1024, DB: 155) | 200 OK [http://localhost/student/admission1]
+
+
+Processing StudentController#admission1 (for 127.0.0.1 at 2013-03-25 17:04:33) [POST]
+  Parameters: {"commit"=>"► Save & Proceed", "action"=>"admission1", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "student"=>{"city"=>"Kaduna", "pin_code"=>"", "student_category_id"=>"", "nationality_id"=>"130", "admission_no"=>"0001", "country_id"=>"130", "language"=>"Yoruba", "phone1"=>"2348065957460", "gender"=>"m", "phone2"=>"2348065957460", "blood_group"=>"O+", "admission_date"=>"2013-03-25", "last_name"=>"Owolabi", "is_sms_enabled"=>"1", "religion"=>"Christianity", "date_of_birth"=>"2008-03-25", "address_line1"=>"No 3 tony ogenewe close narayi high-cost", "birth_place"=>"Lagos", "email"=>"", "state"=>"Kaduna", "address_line2"=>"", "middle_name"=>"Ayodele", "first_name"=>"Samson"}, "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/admission1
+Completed in 398ms (View: 163, DB: 38) | 200 OK [http://localhost/student/admission1]
+
+
+Processing CoursesController#index (for 127.0.0.1 at 2013-03-25 17:04:45) [GET]
+  Parameters: {"action"=>"index", "controller"=>"courses"}
+Rendering template within layouts/application
+Rendering courses/index
+Completed in 103ms (View: 69, DB: 8) | 200 OK [http://localhost/courses]
+
+
+Processing CoursesController#manage_course (for 127.0.0.1 at 2013-03-25 17:04:48) [GET]
+  Parameters: {"action"=>"manage_course", "controller"=>"courses"}
+Rendering template within layouts/application
+Rendering courses/manage_course
+Completed in 242ms (View: 224, DB: 6) | 200 OK [http://localhost/courses/manage_course]
+
+
+Processing CoursesController#new (for 127.0.0.1 at 2013-03-25 17:04:52) [GET]
+  Parameters: {"action"=>"new", "controller"=>"courses"}
+Rendering template within layouts/application
+Rendering courses/new
+Completed in 138ms (View: 89, DB: 31) | 200 OK [http://localhost/courses/new]
+
+
+Processing CoursesController#create (for 127.0.0.1 at 2013-03-25 17:05:54) [POST]
+  Parameters: {"course"=>{"code"=>"", "course_name"=>"Accountancy", "batches_attributes"=>{"0"=>{"start_date"=>"2013-03-25", "name"=>"", "end_date"=>"2014-03-25"}}, "section_name"=>"School Of Business", "grading_type"=>"0"}, "commit"=>"► Save", "action"=>"create", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "controller"=>"courses"}
+Rendering template within layouts/application
+Rendering courses/new
+Completed in 160ms (View: 106, DB: 18) | 200 OK [http://localhost/courses]
+
+
+Processing CoursesController#create (for 127.0.0.1 at 2013-03-25 17:06:14) [POST]
+  Parameters: {"course"=>{"code"=>"ACC", "course_name"=>"Accountancy", "batches_attributes"=>{"0"=>{"start_date"=>"2013-03-25", "name"=>"", "end_date"=>"2014-03-25"}}, "section_name"=>"School Of Business", "grading_type"=>"0"}, "commit"=>"► Save", "action"=>"create", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "controller"=>"courses"}
+Rendering template within layouts/application
+Rendering courses/new
+Completed in 129ms (View: 78, DB: 15) | 200 OK [http://localhost/courses]
+
+
+Processing CoursesController#create (for 127.0.0.1 at 2013-03-25 17:07:10) [POST]
+  Parameters: {"course"=>{"code"=>"ACC", "course_name"=>"Accountancy", "batches_attributes"=>{"0"=>{"start_date"=>"2013-03-25", "name"=>"Year 1", "end_date"=>"2014-03-25"}}, "section_name"=>"School Of Business", "grading_type"=>"0"}, "commit"=>"► Save", "action"=>"create", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "controller"=>"courses"}
+Redirected to http://localhost:3000/courses/manage_course
+Completed in 150ms (DB: 92) | 302 Found [http://localhost/courses]
+
+
+Processing CoursesController#manage_course (for 127.0.0.1 at 2013-03-25 17:07:10) [GET]
+  Parameters: {"action"=>"manage_course", "controller"=>"courses"}
+Rendering template within layouts/application
+Rendering courses/manage_course
+Completed in 87ms (View: 65, DB: 8) | 200 OK [http://localhost/courses/manage_course]
+
+
+Processing StudentController#index (for 127.0.0.1 at 2013-03-25 17:07:19) [GET]
+  Parameters: {"action"=>"index", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/index
+Completed in 81ms (View: 61, DB: 7) | 200 OK [http://localhost/student]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-25 17:07:24) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 275ms (View: 248, DB: 10) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing StudentController#index (for 127.0.0.1 at 2013-03-25 17:07:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/index
+Completed in 74ms (View: 58, DB: 4) | 200 OK [http://localhost/student]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-25 17:07:33) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 110ms (View: 86, DB: 8) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing StudentController#admission1 (for 127.0.0.1 at 2013-03-25 17:07:35) [GET]
+  Parameters: {"action"=>"admission1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/admission1
+Completed in 240ms (View: 195, DB: 21) | 200 OK [http://localhost/student/admission1]
+
+
+Processing StudentController#admission1 (for 127.0.0.1 at 2013-03-25 17:08:32) [POST]
+  Parameters: {"commit"=>"► Save & Proceed", "action"=>"admission1", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "student"=>{"city"=>"Kaduna", "pin_code"=>"", "student_category_id"=>"", "nationality_id"=>"130", "admission_no"=>"0001", "country_id"=>"130", "language"=>"Yoruba", "batch_id"=>"1", "phone1"=>"2348065957460", "gender"=>"m", "phone2"=>"2348065957460", "blood_group"=>"O+", "admission_date"=>"2013-03-25", "last_name"=>"Owolabi", "is_sms_enabled"=>"1", "religion"=>"Christianity", "date_of_birth"=>"2008-03-25", "address_line1"=>"No 3 tony ogenewe close narayi high-cost", "birth_place"=>"", "email"=>"", "state"=>"Kaduna", "address_line2"=>"", "middle_name"=>"Ayodele", "first_name"=>"Samson"}, "controller"=>"student"}
+[paperclip] Saving attachments.
+Redirected to http://localhost:3000/student/admission2/1
+Completed in 122ms (DB: 64) | 302 Found [http://localhost/student/admission1]
+
+
+Processing StudentController#admission2 (for 127.0.0.1 at 2013-03-25 17:08:32) [GET]
+  Parameters: {"action"=>"admission2", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/admission2
+Completed in 295ms (View: 136, DB: 143) | 200 OK [http://localhost/student/admission2/1]
+
+
+Processing StudentController#index (for 127.0.0.1 at 2013-03-25 17:09:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/index
+Completed in 231ms (View: 31, DB: 5) | 200 OK [http://localhost/student]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-03-25 17:09:27) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "controller"=>"student", "_"=>"", "query"=>"S"}
+Rendering student/search_ajax
+Completed in 28ms (View: 8, DB: 7) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-03-25 17:09:31) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "controller"=>"student", "_"=>"", "query"=>"Sa"}
+Rendering student/search_ajax
+Completed in 26ms (View: 3, DB: 7) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-03-25 17:09:32) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "controller"=>"student", "_"=>"", "query"=>"Sam"}
+Rendering student/search_ajax
+Completed in 50ms (View: 13, DB: 11) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-03-25 17:09:34) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "controller"=>"student", "_"=>"", "query"=>"Sams"}
+Rendering student/search_ajax
+Completed in 41ms (View: 8, DB: 9) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#profile (for 127.0.0.1 at 2013-03-25 17:09:43) [GET]
+  Parameters: {"action"=>"profile", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/profile
+Completed in 317ms (View: 184, DB: 115) | 200 OK [http://localhost/student/profile/1]
+
+
+Processing StudentController#edit (for 127.0.0.1 at 2013-03-25 17:09:52) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/edit
+Completed in 232ms (View: 191, DB: 18) | 200 OK [http://localhost/student/edit/1]
+
+
+Processing StudentController#edit (for 127.0.0.1 at 2013-03-25 17:11:27) [POST]
+  Parameters: {"commit"=>"► Update", "action"=>"edit", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "id"=>"1", "student"=>{"city"=>"Kaduna", "pin_code"=>"", "student_category_id"=>"", "nationality_id"=>"130", "admission_no"=>"0001", "country_id"=>"130", "language"=>"Yoruba", "batch_id"=>"1", "phone1"=>"2348037868610", "gender"=>"m", "phone2"=>"2348037868610", "blood_group"=>"O+", "admission_date"=>"2013-03-25", "last_name"=>"Smith", "is_sms_enabled"=>"1", "religion"=>"Christianity", "date_of_birth"=>"2008-03-25", "address_line1"=>"No 3 tony ogenewe close narayi high-cost", "birth_place"=>"", "email"=>"", "state"=>"Kaduna", "address_line2"=>"", "middle_name"=>"James", "first_name"=>"John"}, "controller"=>"student"}
+[paperclip] Saving attachments.
+Redirected to http://localhost:3000/student/profile/1
+Completed in 169ms (DB: 105) | 302 Found [http://localhost/student/edit/1]
+
+
+Processing StudentController#profile (for 127.0.0.1 at 2013-03-25 17:11:27) [GET]
+  Parameters: {"action"=>"profile", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/profile
+Completed in 347ms (View: 310, DB: 16) | 200 OK [http://localhost/student/profile/1]
+
+
+Processing StudentController#profile_pdf (for 127.0.0.1 at 2013-03-25 17:11:38) [GET]
+  Parameters: {"action"=>"profile_pdf", "id"=>"1", "controller"=>"student"}
+***************WICKED***************
+Rendering template within layouts/pdf
+Rendering student/profile_pdf
+Rendering template within layouts/pdf
+Rendering layouts/pdf_header.html.erb
+Rendering template within layouts/pdf
+Rendering layouts/pdf_footer.html.erb
+Sending data profile_pdf.pdf
+Completed in 6858ms (View: 2, DB: 0) | 200 OK [http://localhost/student/profile_pdf/1]
+
+
+Processing StudentController#previous_data (for 127.0.0.1 at 2013-03-25 17:12:28) [GET]
+  Parameters: {"action"=>"previous_data", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/previous_data
+Completed in 223ms (View: 93, DB: 110) | 200 OK [http://localhost/student/previous_data/1]
+
+
+Processing StudentController#add_guardian (for 127.0.0.1 at 2013-03-25 17:12:39) [GET]
+  Parameters: {"action"=>"add_guardian", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/add_guardian
+Completed in 173ms (View: 133, DB: 14) | 200 OK [http://localhost/student/add_guardian/1]
+
+
+Processing StudentController#fees (for 127.0.0.1 at 2013-03-25 17:13:54) [GET]
+  Parameters: {"action"=>"fees", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/fees
+Completed in 283ms (View: 76, DB: 183) | 200 OK [http://localhost/student/fees/1]
+
+
+Processing StudentController#email (for 127.0.0.1 at 2013-03-25 17:14:02) [GET]
+  Parameters: {"action"=>"email", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/email
+Completed in 284ms (View: 251, DB: 13) | 200 OK [http://localhost/student/email/1]
+
+
+Processing StudentController#guardians (for 127.0.0.1 at 2013-03-25 17:14:10) [GET]
+  Parameters: {"action"=>"guardians", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/guardians
+Completed in 95ms (View: 80, DB: 7) | 200 OK [http://localhost/student/guardians/1]
+
+
+Processing StudentController#reports (for 127.0.0.1 at 2013-03-25 17:14:20) [GET]
+  Parameters: {"action"=>"reports", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/reports
+Completed in 525ms (View: 95, DB: 393) | 200 OK [http://localhost/student/reports/1]
+
+
+Processing StudentController#add_guardian (for 127.0.0.1 at 2013-03-25 17:14:36) [GET]
+  Parameters: {"action"=>"add_guardian", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/add_guardian
+Completed in 125ms (View: 88, DB: 13) | 200 OK [http://localhost/student/add_guardian/1]
+
+
+Processing StudentController#add_guardian (for 127.0.0.1 at 2013-03-25 17:18:00) [POST]
+  Parameters: {"commit"=>"► Finish", "action"=>"add_guardian", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "id"=>"1", "controller"=>"student", "parent_detail"=>{"city"=>"Kaduna", "occupation"=>"Engineer", "dob"=>"1970-03-02", "country_id"=>"130", "relation"=>"Parent", "income"=>"", "last_name"=>"Smith", "office_phone1"=>"", "office_address_line1"=>"No 3 tony ogenewe close narayi high-cost", "office_phone2"=>"", "office_address_line2"=>"", "mobile_phone"=>"2348037868610", "state"=>"Kaduna", "email"=>"", "education"=>"Bsc", "first_name"=>"William", "ward_id"=>"1"}}
+Redirected to http://localhost:3000/student/admission3_1/1
+Completed in 127ms (DB: 81) | 302 Found [http://localhost/student/add_guardian/1]
+
+
+Processing StudentController#admission3_1 (for 127.0.0.1 at 2013-03-25 17:18:00) [GET]
+  Parameters: {"action"=>"admission3_1", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/admission3_1
+Completed in 65ms (View: 42, DB: 9) | 200 OK [http://localhost/student/admission3_1/1]
+
+
+Processing StudentController#admission3_1 (for 127.0.0.1 at 2013-03-25 17:18:10) [POST]
+  Parameters: {"commit"=>"► Finish", "action"=>"admission3_1", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "id"=>"1", "controller"=>"student", "immediate_contact"=>{"contact"=>"1"}}
+[paperclip] Saving attachments.
+Redirected to http://localhost:3000/student/profile/1
+Completed in 140ms (DB: 66) | 302 Found [http://localhost/student/admission3_1/1]
+
+
+Processing StudentController#profile (for 127.0.0.1 at 2013-03-25 17:18:11) [GET]
+  Parameters: {"action"=>"profile", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/profile
+Completed in 342ms (View: 285, DB: 30) | 200 OK [http://localhost/student/profile/1]
+
+
+Processing StudentController#profile_pdf (for 127.0.0.1 at 2013-03-25 17:18:30) [GET]
+  Parameters: {"action"=>"profile_pdf", "id"=>"1", "controller"=>"student"}
+***************WICKED***************
+Rendering template within layouts/pdf
+Rendering student/profile_pdf
+Rendering template within layouts/pdf
+Rendering layouts/pdf_header.html.erb
+Rendering template within layouts/pdf
+Rendering layouts/pdf_footer.html.erb
+Sending data profile_pdf.pdf
+Completed in 1660ms (View: 6, DB: 0) | 200 OK [http://localhost/student/profile_pdf/1]
+
+
+Processing StudentController#reports (for 127.0.0.1 at 2013-03-25 17:19:01) [GET]
+  Parameters: {"action"=>"reports", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/reports
+Completed in 117ms (View: 64, DB: 23) | 200 OK [http://localhost/student/reports/1]
+
+
+Processing ExamController#student_transcript (for 127.0.0.1 at 2013-03-25 17:19:06) [GET]
+  Parameters: {"student_id"=>"1", "transcript"=>{"batch_id"=>"1"}, "flag"=>"1", "action"=>"student_transcript", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/student_transcript
+Completed in 183ms (View: 80, DB: 63) | 200 OK [http://localhost/exam/student_transcript?flag=1&student_id=1&transcript%5Bbatch_id%5D=1]
+
+
+Processing ExamController#student_transcript_pdf (for 127.0.0.1 at 2013-03-25 17:19:18) [GET]
+  Parameters: {"student_id"=>"1", "action"=>"student_transcript_pdf", "controller"=>"exam"}
+***************WICKED***************
+Rendering template within layouts/pdf
+Rendering exam/student_transcript_pdf
+Rendering template within layouts/pdf
+Rendering layouts/pdf_header.html.erb
+Rendering template within layouts/pdf
+Rendering layouts/pdf_footer.html.erb
+Sending data student_transcript_pdf.pdf
+Completed in 1495ms (View: 1, DB: 0) | 200 OK [http://localhost/exam/student_transcript_pdf?student_id=1]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-25 17:19:44) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 111ms (View: 90, DB: 11) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing EmployeeController#hr (for 127.0.0.1 at 2013-03-25 17:19:49) [GET]
+  Parameters: {"action"=>"hr", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/hr
+Completed in 299ms (View: 266, DB: 8) | 200 OK [http://localhost/employee/hr]
+
+
+Processing EmployeeController#settings (for 127.0.0.1 at 2013-03-25 17:19:54) [GET]
+  Parameters: {"action"=>"settings", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/settings
+Completed in 136ms (View: 115, DB: 8) | 200 OK [http://localhost/employee/settings]
+
+
+Processing EmployeeController#add_position (for 127.0.0.1 at 2013-03-25 17:20:02) [GET]
+  Parameters: {"action"=>"add_position", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/add_position
+Completed in 260ms (View: 115, DB: 124) | 200 OK [http://localhost/employee/add_position]
+
+
+Processing EmployeeController#add_position (for 127.0.0.1 at 2013-03-25 17:20:14) [POST]
+  Parameters: {"position"=>{"name"=>"", "employee_category_id"=>"", "status"=>"true"}, "commit"=>"► Create", "action"=>"add_position", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/add_position
+Completed in 113ms (View: 71, DB: 18) | 200 OK [http://localhost/employee/add_position]
+
+
+Processing EmployeeController#edit_position (for 127.0.0.1 at 2013-03-25 17:21:00) [GET]
+  Parameters: {"action"=>"edit_position", "id"=>"1", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/edit_position
+Completed in 109ms (View: 79, DB: 9) | 200 OK [http://localhost/employee/edit_position/1]
+
+
+Processing EmployeeController#add_department (for 127.0.0.1 at 2013-03-25 17:21:13) [GET]
+  Parameters: {"action"=>"add_department", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/add_department
+Completed in 204ms (View: 102, DB: 83) | 200 OK [http://localhost/employee/add_department]
+
+
+Processing EmployeeController#add_category (for 127.0.0.1 at 2013-03-25 17:21:31) [GET]
+  Parameters: {"action"=>"add_category", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/add_category
+Completed in 302ms (View: 273, DB: 10) | 200 OK [http://localhost/employee/add_category]
+
+
+Processing EmployeeController#add_category (for 127.0.0.1 at 2013-03-25 17:22:56) [POST]
+  Parameters: {"category"=>{"name"=>"Lecturer", "prefix"=>"Lect.", "status"=>"true"}, "commit"=>"► Create", "action"=>"add_category", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "controller"=>"employee"}
+Redirected to http://localhost:3000/employee/add_category
+Completed in 94ms (DB: 66) | 302 Found [http://localhost/employee/add_category]
+
+
+Processing EmployeeController#add_category (for 127.0.0.1 at 2013-03-25 17:22:56) [GET]
+  Parameters: {"action"=>"add_category", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/add_category
+Completed in 96ms (View: 67, DB: 12) | 200 OK [http://localhost/employee/add_category]
+
+
+Processing EmployeeController#add_position (for 127.0.0.1 at 2013-03-25 17:23:18) [GET]
+  Parameters: {"action"=>"add_position", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/add_position
+Completed in 107ms (View: 70, DB: 18) | 200 OK [http://localhost/employee/add_position]
+
+
+Processing EmployeeController#add_additional_details (for 127.0.0.1 at 2013-03-25 17:23:40) [GET]
+  Parameters: {"action"=>"add_additional_details", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/add_additional_details
+Completed in 186ms (View: 80, DB: 81) | 200 OK [http://localhost/employee/add_additional_details]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-25 17:23:46) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 106ms (View: 83, DB: 9) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing UserController#index (for 127.0.0.1 at 2013-03-25 17:23:48) [GET]
+  Parameters: {"action"=>"index", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/index
+Completed in 93ms (View: 75, DB: 8) | 200 OK [http://localhost/user]
+
+
+Processing UserController#all (for 127.0.0.1 at 2013-03-25 17:23:52) [GET]
+  Parameters: {"action"=>"all", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/all
+Completed in 70ms (View: 51, DB: 8) | 200 OK [http://localhost/user/all]
+
+
+Processing UserController#list_user (for 127.0.0.1 at 2013-03-25 17:24:00) [POST]
+  Parameters: {"action"=>"list_user", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "user_type"=>"Employee", "controller"=>"user", "_"=>""}
+Completed in 30ms (View: 22, DB: 5) | 200 OK [http://localhost/user/list_user]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-25 17:24:24) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 115ms (View: 88, DB: 12) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing EmployeeController#hr (for 127.0.0.1 at 2013-03-25 17:24:26) [GET]
+  Parameters: {"action"=>"hr", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/hr
+Completed in 282ms (View: 62, DB: 7) | 200 OK [http://localhost/employee/hr]
+
+
+Processing EmployeeController#settings (for 127.0.0.1 at 2013-03-25 17:24:30) [GET]
+  Parameters: {"action"=>"settings", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/settings
+Completed in 99ms (View: 75, DB: 7) | 200 OK [http://localhost/employee/settings]
+
+
+Processing EmployeeController#add_department (for 127.0.0.1 at 2013-03-25 17:24:40) [GET]
+  Parameters: {"action"=>"add_department", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/add_department
+Completed in 99ms (View: 70, DB: 10) | 200 OK [http://localhost/employee/add_department]
+
+
+Processing EmployeeController#add_category (for 127.0.0.1 at 2013-03-25 17:24:53) [GET]
+  Parameters: {"action"=>"add_category", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/add_category
+Completed in 117ms (View: 89, DB: 11) | 200 OK [http://localhost/employee/add_category]
+
+
+Processing EmployeeController#add_department (for 127.0.0.1 at 2013-03-25 17:25:06) [GET]
+  Parameters: {"action"=>"add_department", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/add_department
+Completed in 105ms (View: 74, DB: 10) | 200 OK [http://localhost/employee/add_department]
+
+
+Processing EmployeeController#add_department (for 127.0.0.1 at 2013-03-25 17:25:31) [POST]
+  Parameters: {"commit"=>"► Create", "action"=>"add_department", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "controller"=>"employee", "department"=>{"name"=>"Accountancy", "code"=>"ACC", "status"=>"true"}}
+Redirected to http://localhost:3000/employee/add_department
+Completed in 68ms (DB: 49) | 302 Found [http://localhost/employee/add_department]
+
+
+Processing EmployeeController#add_department (for 127.0.0.1 at 2013-03-25 17:25:31) [GET]
+  Parameters: {"action"=>"add_department", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/add_department
+Completed in 99ms (View: 78, DB: 8) | 200 OK [http://localhost/employee/add_department]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-25 17:25:36) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 111ms (View: 89, DB: 9) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing UserController#index (for 127.0.0.1 at 2013-03-25 17:25:38) [GET]
+  Parameters: {"action"=>"index", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/index
+Completed in 256ms (View: 238, DB: 8) | 200 OK [http://localhost/user]
+
+
+Processing UserController#all (for 127.0.0.1 at 2013-03-25 17:25:43) [GET]
+  Parameters: {"action"=>"all", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/all
+Completed in 86ms (View: 61, DB: 15) | 200 OK [http://localhost/user/all]
+
+
+Processing UserController#list_user (for 127.0.0.1 at 2013-03-25 17:25:47) [POST]
+  Parameters: {"action"=>"list_user", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "user_type"=>"Employee", "controller"=>"user", "_"=>""}
+Completed in 31ms (View: 16, DB: 16) | 200 OK [http://localhost/user/list_user]
+
+
+Processing UserController#list_employee_user (for 127.0.0.1 at 2013-03-25 17:25:50) [POST]
+  Parameters: {"dept_id"=>"2", "action"=>"list_employee_user", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "controller"=>"user", "_"=>""}
+Completed in 43ms (View: 11, DB: 17) | 200 OK [http://localhost/user/list_employee_user]
+
+
+Processing UserController#create (for 127.0.0.1 at 2013-03-25 17:26:07) [GET]
+  Parameters: {"action"=>"create", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/create
+Completed in 65ms (View: 52, DB: 5) | 200 OK [http://localhost/user/create]
+
+
+Processing EmployeeController#hr (for 127.0.0.1 at 2013-03-25 17:26:35) [GET]
+  Parameters: {"action"=>"hr", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/hr
+Completed in 124ms (View: 94, DB: 12) | 200 OK [http://localhost/employee/hr]
+
+
+Processing EmployeeController#employee_management (for 127.0.0.1 at 2013-03-25 17:26:40) [GET]
+  Parameters: {"action"=>"employee_management", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/employee_management
+Completed in 81ms (View: 58, DB: 10) | 200 OK [http://localhost/employee/employee_management]
+
+
+Processing EmployeeController#admission1 (for 127.0.0.1 at 2013-03-25 17:26:47) [GET]
+  Parameters: {"action"=>"admission1", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/admission1
+Completed in 351ms (View: 223, DB: 93) | 200 OK [http://localhost/employee/admission1]
+
+
+Processing EmployeeController#update_positions (for 127.0.0.1 at 2013-03-25 17:28:41) [POST]
+  Parameters: {"action"=>"update_positions", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "category_id"=>"2", "controller"=>"employee", "_"=>""}
+Completed in 37ms (View: 8, DB: 9) | 200 OK [http://localhost/employee/update_positions]
+
+
+Processing EmployeeController#admission1 (for 127.0.0.1 at 2013-03-25 17:31:35) [POST]
+  Parameters: {"commit"=>"► Save & Proceed", "action"=>"admission1", "authenticity_token"=>"/6lllnQ+v8hpmHGJvIAUm9L2Kvc0i5UBjl57iLgCQSg=", "employee"=>{"experience_month"=>"", "experience_year"=>"", "employee_grade_id"=>"", "employee_position_id"=>"", "joining_date"=>"2013-03-25", "job_title"=>"", "nationality_id"=>"130", "employee_department_id"=>"2", "employee_category_id"=>"2", "father_name"=>"Olumide", "gender"=>"true", "blood_group"=>"AB+", "husband_name"=>"", "children_count"=>"", "employee_number"=>"E1", "mother_name"=>"Susan", "last_name"=>"Olamide", "experience_detail"=>"", "qualification"=>"", "date_of_birth"=>"1980-02-05", "marital_status"=>"single", "status"=>"true", "email"=>"", "middle_name"=>"Adekola", "first_name"=>"Samson"}, "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/admission1
+Completed in 315ms (View: 126, DB: 17) | 200 OK [http://localhost/employee/admission1]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-25 17:32:15) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 116ms (View: 94, DB: 9) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing EmployeeController#hr (for 127.0.0.1 at 2013-03-25 17:32:17) [GET]
+  Parameters: {"action"=>"hr", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/hr
+Completed in 112ms (View: 98, DB: 5) | 200 OK [http://localhost/employee/hr]
+
+
+Processing EmployeeController#employee_management (for 127.0.0.1 at 2013-03-25 17:32:21) [GET]
+  Parameters: {"action"=>"employee_management", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/employee_management
+Completed in 77ms (View: 53, DB: 7) | 200 OK [http://localhost/employee/employee_management]
+
+
+Processing EmployeeController#admission1 (for 127.0.0.1 at 2013-03-25 17:32:24) [GET]
+  Parameters: {"action"=>"admission1", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/admission1
+Completed in 219ms (View: 167, DB: 18) | 200 OK [http://localhost/employee/admission1]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-25 17:32:34) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 272ms (View: 250, DB: 8) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing EmployeeController#hr (for 127.0.0.1 at 2013-03-25 17:32:37) [GET]
+  Parameters: {"action"=>"hr", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/hr
+Completed in 117ms (View: 86, DB: 10) | 200 OK [http://localhost/employee/hr]
+
+
+Processing EmployeeController#settings (for 127.0.0.1 at 2013-03-25 17:32:41) [GET]
+  Parameters: {"action"=>"settings", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/settings
+Completed in 102ms (View: 80, DB: 7) | 200 OK [http://localhost/employee/settings]
+
+
+Processing EmployeeController#add_position (for 127.0.0.1 at 2013-03-25 17:32:46) [GET]
+  Parameters: {"action"=>"add_position", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/add_position
+Completed in 106ms (View: 71, DB: 17) | 200 OK [http://localhost/employee/add_position]
+
+
+Processing EmployeeController#add_position (for 127.0.0.1 at 2013-03-25 17:33:36) [GET]
+  Parameters: {"action"=>"add_position", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/add_position
+Completed in 116ms (View: 84, DB: 11) | 200 OK [http://localhost/employee/add_position]
+
+
+Processing EmployeeController#add_category (for 127.0.0.1 at 2013-03-25 17:33:43) [GET]
+  Parameters: {"action"=>"add_category", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/add_category
+Completed in 117ms (View: 85, DB: 13) | 200 OK [http://localhost/employee/add_category]
+
+
+Processing EmployeeController#add_position (for 127.0.0.1 at 2013-03-25 17:34:02) [GET]
+  Parameters: {"action"=>"add_position", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/add_position
+Completed in 100ms (View: 79, DB: 9) | 200 OK [http://localhost/employee/add_position]
+
+
+Processing EmployeeController#add_grade (for 127.0.0.1 at 2013-03-25 17:34:27) [GET]
+  Parameters: {"action"=>"add_grade", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/add_grade
+Completed in 123ms (View: 95, DB: 10) | 200 OK [http://localhost/employee/add_grade]
+
+
+Processing EmployeeController#add_position (for 127.0.0.1 at 2013-03-25 17:34:39) [GET]
+  Parameters: {"action"=>"add_position", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/add_position
+Completed in 267ms (View: 234, DB: 13) | 200 OK [http://localhost/employee/add_position]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2013-03-25 17:34:48) [GET]
+  Parameters: {"action"=>"logout", "controller"=>"user"}
+Redirected to http://localhost:3000/
+Completed in 22ms (DB: 7) | 302 Found [http://localhost/user/logout]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-25 17:34:48) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 36ms (View: 28, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-26 17:18:47) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 1192ms (View: 34, DB: 65) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-26 17:19:23) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"citOZosaDsWf/TbmXPsh7zkdKgUT81XtE8v2UZbRV7Q=", "controller"=>"user", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed in 55ms (DB: 30) | 302 Found [http://localhost/]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-26 17:19:24) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 1078ms (View: 999, DB: 63) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing StudentController#admission1 (for 127.0.0.1 at 2013-03-26 17:19:36) [GET]
+  Parameters: {"action"=>"admission1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/admission1
+Completed in 977ms (View: 774, DB: 149) | 200 OK [http://localhost/student/admission1]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-26 17:20:51) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 107ms (View: 86, DB: 9) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing NewsController#index (for 127.0.0.1 at 2013-03-26 17:24:53) [GET]
+  Parameters: {"action"=>"index", "controller"=>"news"}
+Rendering template within layouts/application
+Rendering news/index
+Completed in 95ms (View: 62, DB: 9) | 200 OK [http://localhost/news]
+
+
+Processing NewsController#add (for 127.0.0.1 at 2013-03-26 17:24:57) [GET]
+  Parameters: {"action"=>"add", "controller"=>"news"}
+Rendering template within layouts/application
+Rendering news/add
+Completed in 87ms (View: 63, DB: 9) | 200 OK [http://localhost/news/add]
+
+
+Processing NewsController#all (for 127.0.0.1 at 2013-03-26 17:26:41) [GET]
+  Parameters: {"action"=>"all", "controller"=>"news"}
+Rendering template within layouts/application
+Rendering news/all
+Completed in 88ms (View: 66, DB: 8) | 200 OK [http://localhost/news/all]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-26 17:26:51) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 117ms (View: 94, DB: 8) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2013-03-26 17:27:59) [GET]
+  Parameters: {"action"=>"logout", "controller"=>"user"}
+Redirected to http://localhost:3000/
+Completed in 24ms (DB: 8) | 302 Found [http://localhost/user/logout]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-26 17:27:59) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 35ms (View: 25, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-26 17:32:18) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 21ms (View: 14, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-26 17:34:30) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 34ms (View: 25, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-26 17:35:52) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 36ms (View: 27, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-26 17:37:58) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 34ms (View: 25, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-26 17:38:51) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 35ms (View: 25, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-26 17:42:26) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 35ms (View: 26, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-03-26 17:42:27) [GET]
+  Parameters: {"1346839878"=>nil}
+
+ActionController::RoutingError (No route matches "/images/application/app_fedena_logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-26 17:43:04) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"citOZosaDsWf/TbmXPsh7zkdKgUT81XtE8v2UZbRV7Q=", "controller"=>"user", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed in 9ms (DB: 2) | 302 Found [http://localhost/]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-26 17:43:05) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 551ms (View: 529, DB: 12) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2013-03-26 17:43:30) [GET]
+  Parameters: {"action"=>"logout", "controller"=>"user"}
+Redirected to http://localhost:3000/
+Completed in 17ms (DB: 5) | 302 Found [http://localhost/user/logout]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-26 17:43:31) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 35ms (View: 26, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-03-26 17:43:31) [GET]
+  Parameters: {"1346839878"=>nil}
+
+ActionController::RoutingError (No route matches "/images/application/app_fedena_logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-26 22:54:33) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 1178ms (View: 27, DB: 49) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-03-26 22:54:34) [GET]
+
+ActionController::RoutingError (No route matches "/images/application/app_fedena_logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-26 22:57:16) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 34ms (View: 25, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-03-26 22:57:17) [GET]
+
+ActionController::RoutingError (No route matches "/images/application/app_fedena_logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-26 22:57:37) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"user", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed in 60ms (DB: 35) | 302 Found [http://localhost/]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-26 22:57:37) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 1324ms (View: 1252, DB: 56) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing ExamController#index (for 127.0.0.1 at 2013-03-26 22:58:08) [GET]
+  Parameters: {"action"=>"index", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/index
+Completed in 123ms (View: 89, DB: 6) | 200 OK [http://localhost/exam]
+
+
+Processing ExamController#settings (for 127.0.0.1 at 2013-03-26 22:58:12) [GET]
+  Parameters: {"action"=>"settings", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/settings
+Completed in 115ms (View: 91, DB: 8) | 200 OK [http://localhost/exam/settings]
+
+
+Processing GradingLevelsController#index (for 127.0.0.1 at 2013-03-26 22:58:16) [GET]
+  Parameters: {"action"=>"index", "controller"=>"grading_levels"}
+Rendering template within layouts/application
+Rendering grading_levels/index
+Completed in 338ms (View: 182, DB: 133) | 200 OK [http://localhost/grading_levels]
+
+
+Processing GradingLevelsController#index (for 127.0.0.1 at 2013-03-26 22:58:23) [GET]
+  Parameters: {"action"=>"index", "controller"=>"grading_levels"}
+Rendering template within layouts/application
+Rendering grading_levels/index
+Completed in 164ms (View: 130, DB: 19) | 200 OK [http://localhost/grading_levels]
+
+
+Processing GradingLevelsController#edit (for 127.0.0.1 at 2013-03-26 22:58:33) [GET]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "id"=>"1", "controller"=>"grading_levels"}
+Rendering grading_levels/edit
+Completed in 58ms (View: 24, DB: 15) | 200 OK [http://localhost/grading_levels/1/edit?authenticity_token=ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20%3D]
+
+
+Processing ClassDesignationsController#index (for 127.0.0.1 at 2013-03-26 22:58:43) [GET]
+  Parameters: {"action"=>"index", "controller"=>"class_designations"}
+Rendering template within layouts/application
+Rendering class_designations/index
+Completed in 261ms (View: 227, DB: 8) | 200 OK [http://localhost/class_designations]
+
+
+Processing ClassDesignationsController#load_class_designations (for 127.0.0.1 at 2013-03-26 22:58:48) [POST]
+  Parameters: {"action"=>"load_class_designations", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"class_designations", "course_id"=>"1", "_"=>""}
+Completed in 262ms (View: 28, DB: 196) | 200 OK [http://localhost/class_designations/load_class_designations]
+
+
+Processing RankingLevelsController#index (for 127.0.0.1 at 2013-03-26 22:58:55) [GET]
+  Parameters: {"action"=>"index", "controller"=>"ranking_levels"}
+Rendering template within layouts/application
+Rendering ranking_levels/index
+Completed in 97ms (View: 62, DB: 12) | 200 OK [http://localhost/ranking_levels]
+
+
+Processing RankingLevelsController#load_ranking_levels (for 127.0.0.1 at 2013-03-26 22:58:58) [POST]
+  Parameters: {"action"=>"load_ranking_levels", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"ranking_levels", "course_id"=>"1", "_"=>""}
+Completed in 118ms (View: 41, DB: 65) | 200 OK [http://localhost/ranking_levels/load_ranking_levels]
+
+
+Processing RankingLevelsController#create_ranking_level (for 127.0.0.1 at 2013-03-26 22:59:16) [POST]
+  Parameters: {"commit"=>"► Create", "action"=>"create_ranking_level", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "ranking_level"=>{"name"=>"", "marks_limit_type"=>"upper", "full_course"=>"0", "subject_limit_type"=>"upper", "subject_count"=>"", "marks"=>""}, "controller"=>"ranking_levels", "course_id"=>"1", "_"=>""}
+Completed in 199ms (View: 16, DB: 11) | 200 OK [http://localhost/ranking_levels/create_ranking_level?course_id=1]
+
+
+Processing ExamController#create_exam (for 127.0.0.1 at 2013-03-26 22:59:56) [GET]
+  Parameters: {"action"=>"create_exam", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/create_exam
+Completed in 106ms (View: 78, DB: 7) | 200 OK [http://localhost/exam/create_exam]
+
+
+Processing ExamController#update_batch (for 127.0.0.1 at 2013-03-26 23:00:00) [POST]
+  Parameters: {"action"=>"update_batch", "course_name"=>"1", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"exam", "_"=>""}
+Completed in 38ms (View: 8, DB: 9) | 200 OK [http://localhost/exam/update_batch]
+
+
+Processing ExamController#previous_batch_exams (for 127.0.0.1 at 2013-03-26 23:00:07) [GET]
+  Parameters: {"action"=>"previous_batch_exams", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/previous_batch_exams
+Completed in 87ms (View: 62, DB: 9) | 200 OK [http://localhost/exam/previous_batch_exams]
+
+
+Processing ExamController#list_inactive_batches (for 127.0.0.1 at 2013-03-26 23:00:15) [POST]
+  Parameters: {"action"=>"list_inactive_batches", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"exam", "course_id"=>"1", "_"=>""}
+Completed in 49ms (View: 21, DB: 12) | 200 OK [http://localhost/exam/list_inactive_batches]
+
+
+Processing ExamController#create_exam (for 127.0.0.1 at 2013-03-26 23:00:42) [GET]
+  Parameters: {"action"=>"create_exam", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/create_exam
+Completed in 92ms (View: 63, DB: 9) | 200 OK [http://localhost/exam/create_exam]
+
+
+Processing ExamController#update_batch (for 127.0.0.1 at 2013-03-26 23:00:46) [POST]
+  Parameters: {"action"=>"update_batch", "course_name"=>"1", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"exam", "_"=>""}
+Completed in 32ms (View: 7, DB: 8) | 200 OK [http://localhost/exam/update_batch]
+
+
+Processing ExamGroupsController#index (for 127.0.0.1 at 2013-03-26 23:00:48) [GET]
+  Parameters: {"batch_id"=>"1", "action"=>"index", "controller"=>"exam_groups"}
+Rendering template within layouts/application
+Rendering exam_groups/index
+Completed in 153ms (View: 54, DB: 71) | 200 OK [http://localhost/batches/1/exam_groups]
+
+
+Processing BatchesController#show (for 127.0.0.1 at 2013-03-26 23:01:00) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"batches", "course_id"=>"1"}
+Rendering template within layouts/application
+Rendering batches/show
+Completed in 374ms (View: 98, DB: 47) | 200 OK [http://localhost/courses/1/batches/1]
+
+
+Processing ExamGroupsController#new (for 127.0.0.1 at 2013-03-26 23:01:12) [GET]
+  Parameters: {"batch_id"=>"1", "action"=>"new", "controller"=>"exam_groups"}
+Rendering template within layouts/application
+Rendering exam_groups/new
+Completed in 128ms (View: 92, DB: 12) | 200 OK [http://localhost/batches/1/exam_groups/new]
+
+
+Processing ExamController#update_exam_form (for 127.0.0.1 at 2013-03-26 23:01:47) [POST]
+  Parameters: {"commit"=>"► Save", "action"=>"update_exam_form", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"exam", "batch"=>"1", "_"=>"", "exam_option"=>{"name"=>"ACC 101", "exam_type"=>"Grades"}}
+Completed in 120ms (View: 46, DB: 48) | 200 OK [http://localhost/exam/update_exam_form?batch=1]
+
+
+Processing ExamGroupsController#create (for 127.0.0.1 at 2013-03-26 23:02:14) [POST]
+  Parameters: {"exam_group"=>{"name"=>"ACC 101", "exam_type"=>"Grades"}, "commit"=>"► Save Changes", "batch_id"=>"1", "action"=>"create", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"exam_groups"}
+Redirected to http://localhost:3000/batches/1/exam_groups
+Completed in 90ms (DB: 60) | 302 Found [http://localhost/batches/1/exam_groups]
+
+
+Processing ExamGroupsController#index (for 127.0.0.1 at 2013-03-26 23:02:14) [GET]
+  Parameters: {"batch_id"=>"1", "action"=>"index", "controller"=>"exam_groups"}
+Rendering template within layouts/application
+Rendering exam_groups/index
+Completed in 254ms (View: 75, DB: 157) | 200 OK [http://localhost/batches/1/exam_groups]
+
+
+Processing ExamController#publish (for 127.0.0.1 at 2013-03-26 23:02:25) [POST]
+  Parameters: {"action"=>"publish", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "id"=>"1", "controller"=>"exam", "status"=>"schedule", "_"=>""}
+Rendering exam/publish
+Completed in 705ms (View: 2, DB: 70) | 200 OK [http://localhost/exam/publish/1?status=schedule]
+
+
+Processing ExamController#publish (for 127.0.0.1 at 2013-03-26 23:02:32) [POST]
+  Parameters: {"action"=>"publish", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "id"=>"1", "controller"=>"exam", "status"=>"schedule", "_"=>""}
+Rendering exam/publish
+Completed in 87ms (View: 2, DB: 50) | 200 OK [http://localhost/exam/publish/1?status=schedule]
+
+
+Processing ExamController#publish (for 127.0.0.1 at 2013-03-26 23:02:35) [POST]
+  Parameters: {"action"=>"publish", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "id"=>"1", "controller"=>"exam", "status"=>"schedule", "_"=>""}
+Rendering exam/publish
+Completed in 97ms (View: 2, DB: 53) | 200 OK [http://localhost/exam/publish/1?status=schedule]
+
+
+Processing ExamController#grouping (for 127.0.0.1 at 2013-03-26 23:02:40) [GET]
+  Parameters: {"action"=>"grouping", "id"=>"1", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/grouping
+Completed in 87ms (View: 58, DB: 11) | 200 OK [http://localhost/exam/grouping/1]
+
+
+Processing ExamController#create_exam (for 127.0.0.1 at 2013-03-26 23:03:16) [GET]
+  Parameters: {"action"=>"create_exam", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/create_exam
+Completed in 59ms (View: 41, DB: 7) | 200 OK [http://localhost/exam/create_exam]
+
+
+Processing ExamController#update_batch (for 127.0.0.1 at 2013-03-26 23:03:21) [POST]
+  Parameters: {"action"=>"update_batch", "course_name"=>"1", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"exam", "_"=>""}
+Completed in 32ms (View: 7, DB: 7) | 200 OK [http://localhost/exam/update_batch]
+
+
+Processing ExamGroupsController#index (for 127.0.0.1 at 2013-03-26 23:03:25) [GET]
+  Parameters: {"batch_id"=>"1", "action"=>"index", "controller"=>"exam_groups"}
+Rendering template within layouts/application
+Rendering exam_groups/index
+Completed in 109ms (View: 77, DB: 13) | 200 OK [http://localhost/batches/1/exam_groups]
+
+
+Processing ExamController#generate_reports (for 127.0.0.1 at 2013-03-26 23:03:38) [GET]
+  Parameters: {"action"=>"generate_reports", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/generate_reports
+Completed in 102ms (View: 77, DB: 10) | 200 OK [http://localhost/exam/generate_reports]
+
+
+Processing ExamController#list_batch_groups (for 127.0.0.1 at 2013-03-26 23:03:42) [POST]
+  Parameters: {"action"=>"list_batch_groups", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"exam", "course_id"=>"1", "_"=>""}
+Completed in 91ms (View: 2, DB: 73) | 200 OK [http://localhost/exam/list_batch_groups]
+
+
+Processing ExamController#generate_reports (for 127.0.0.1 at 2013-03-26 23:03:43) [POST]
+  Parameters: {"report"=>{"course_id"=>"1"}, "commit"=>"►Generate", "action"=>"generate_reports", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/generate_reports
+Completed in 158ms (View: 39, DB: 102) | 200 OK [http://localhost/exam/generate_reports]
+
+
+Processing ScheduledJobsController#index (for 127.0.0.1 at 2013-03-26 23:03:53) [GET]
+  Parameters: {"action"=>"index", "job_object"=>"Batch", "controller"=>"scheduled_jobs", "job_type"=>"1"}
+Rendering template within layouts/application
+Rendering scheduled_jobs/index
+Completed in 83ms (View: 53, DB: 9) | 200 OK [http://localhost/scheduled_jobs/Batch/1]
+
+
+Processing ScheduledJobsController#index (for 127.0.0.1 at 2013-03-26 23:04:02) [GET]
+  Parameters: {"action"=>"index", "job_object"=>"Batch", "controller"=>"scheduled_jobs", "job_type"=>"1"}
+Rendering template within layouts/application
+Rendering scheduled_jobs/index
+Completed in 61ms (View: 41, DB: 10) | 200 OK [http://localhost/scheduled_jobs/Batch/1]
+
+
+Processing ExamController#generate_reports (for 127.0.0.1 at 2013-03-26 23:04:14) [POST]
+  Parameters: {"report"=>{"course_id"=>"1"}, "commit"=>"►Generate", "action"=>"generate_reports", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/generate_reports
+Completed in 145ms (View: 63, DB: 49) | 200 OK [http://localhost/exam/generate_reports]
+
+
+Processing ExamController#list_batch_groups (for 127.0.0.1 at 2013-03-26 23:04:20) [POST]
+  Parameters: {"action"=>"list_batch_groups", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"exam", "course_id"=>"1", "_"=>""}
+Completed in 31ms (View: 3, DB: 8) | 200 OK [http://localhost/exam/list_batch_groups]
+
+
+Processing ExamController#generate_reports (for 127.0.0.1 at 2013-03-26 23:04:21) [POST]
+  Parameters: {"report"=>{"course_id"=>"1"}, "commit"=>"►Generate", "action"=>"generate_reports", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/generate_reports
+Completed in 287ms (View: 202, DB: 50) | 200 OK [http://localhost/exam/generate_reports]
+
+
+Processing ExamController#list_batch_groups (for 127.0.0.1 at 2013-03-26 23:04:27) [POST]
+  Parameters: {"action"=>"list_batch_groups", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"exam", "course_id"=>"1", "_"=>""}
+Completed in 27ms (View: 3, DB: 7) | 200 OK [http://localhost/exam/list_batch_groups]
+
+
+Processing ExamController#generate_reports (for 127.0.0.1 at 2013-03-26 23:04:28) [POST]
+  Parameters: {"report"=>{"course_id"=>"1"}, "commit"=>"►Generate", "action"=>"generate_reports", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/generate_reports
+Completed in 136ms (View: 54, DB: 47) | 200 OK [http://localhost/exam/generate_reports]
+
+
+Processing ExamController#report_center (for 127.0.0.1 at 2013-03-26 23:04:42) [GET]
+  Parameters: {"action"=>"report_center", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/report_center
+Completed in 182ms (View: 158, DB: 8) | 200 OK [http://localhost/exam/report_center]
+
+
+Processing ExamController#exam_wise_report (for 127.0.0.1 at 2013-03-26 23:04:47) [GET]
+  Parameters: {"action"=>"exam_wise_report", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/exam_wise_report
+Completed in 100ms (View: 76, DB: 10) | 200 OK [http://localhost/exam/exam_wise_report]
+
+
+Processing ExamController#list_exam_types (for 127.0.0.1 at 2013-03-26 23:04:52) [POST]
+  Parameters: {"action"=>"list_exam_types", "batch_id"=>"1", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"exam", "_"=>""}
+Completed in 42ms (View: 9, DB: 12) | 200 OK [http://localhost/exam/list_exam_types]
+
+
+Processing ExamController#generated_report (for 127.0.0.1 at 2013-03-26 23:04:56) [POST]
+  Parameters: {"exam_report"=>{"batch_id"=>"1", "exam_group_id"=>"1"}, "commit"=>"► View", "action"=>"generated_report", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/generated_report
+Completed in 159ms (View: 76, DB: 63) | 200 OK [http://localhost/exam/generated_report]
+
+
+Processing ExamController#consolidated_exam_report (for 127.0.0.1 at 2013-03-26 23:05:07) [GET]
+  Parameters: {"exam_group"=>"1", "action"=>"consolidated_exam_report", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/consolidated_exam_report
+Completed in 100ms (View: 66, DB: 17) | 200 OK [http://localhost/exam/consolidated_exam_report?exam_group=1]
+
+
+Processing ExamController#consolidated_exam_report_pdf (for 127.0.0.1 at 2013-03-26 23:05:16) [GET]
+  Parameters: {"exam_group"=>"1", "action"=>"consolidated_exam_report_pdf", "page_height"=>"2000", "controller"=>"exam"}
+***************WICKED***************
+Rendering template within layouts/pdf
+Rendering exam/consolidated_exam_report_pdf
+Rendering template within layouts/pdf
+Rendering layouts/pdf_header.html.erb
+Rendering template within layouts/pdf
+Rendering layouts/pdf_footer.html.erb
+
+RuntimeError (Failed to execute C:/X/X-v2.3-bundle-win/pdf/wkhtmltopdf.exe: Invalid argument):
+  app/controllers/application_controller.rb:292:in `render'
+  app/controllers/exam_controller.rb:332:in `consolidated_exam_report_pdf'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-26 23:05:39) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 98ms (View: 74, DB: 8) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing StudentController#index (for 127.0.0.1 at 2013-03-26 23:05:43) [GET]
+  Parameters: {"action"=>"index", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/index
+Completed in 107ms (View: 68, DB: 10) | 200 OK [http://localhost/student]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-03-26 23:05:47) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"student", "_"=>"", "query"=>"s"}
+Rendering student/search_ajax
+Completed in 31ms (View: 8, DB: 6) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-03-26 23:05:48) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"student", "_"=>"", "query"=>"smi"}
+Rendering student/search_ajax
+Completed in 41ms (View: 11, DB: 9) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-03-26 23:05:49) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"student", "_"=>"", "query"=>"smith"}
+Rendering student/search_ajax
+Completed in 41ms (View: 8, DB: 12) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#profile (for 127.0.0.1 at 2013-03-26 23:05:52) [GET]
+  Parameters: {"action"=>"profile", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/profile
+Completed in 452ms (View: 342, DB: 82) | 200 OK [http://localhost/student/profile/1]
+
+
+Processing StudentController#profile_pdf (for 127.0.0.1 at 2013-03-26 23:05:59) [GET]
+  Parameters: {"action"=>"profile_pdf", "id"=>"1", "controller"=>"student"}
+***************WICKED***************
+Rendering template within layouts/pdf
+Rendering student/profile_pdf
+Rendering template within layouts/pdf
+Rendering layouts/pdf_header.html.erb
+Rendering template within layouts/pdf
+Rendering layouts/pdf_footer.html.erb
+Sending data profile_pdf.pdf
+Completed in 1920ms (View: 3, DB: 0) | 200 OK [http://localhost/student/profile_pdf/1]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-26 23:07:16) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 107ms (View: 84, DB: 8) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing ExamController#index (for 127.0.0.1 at 2013-03-26 23:07:20) [GET]
+  Parameters: {"action"=>"index", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/index
+Completed in 87ms (View: 64, DB: 7) | 200 OK [http://localhost/exam]
+
+
+Processing ExamController#create_exam (for 127.0.0.1 at 2013-03-26 23:07:25) [GET]
+  Parameters: {"action"=>"create_exam", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/create_exam
+Completed in 86ms (View: 59, DB: 8) | 200 OK [http://localhost/exam/create_exam]
+
+
+Processing ExamController#update_batch (for 127.0.0.1 at 2013-03-26 23:07:34) [POST]
+  Parameters: {"action"=>"update_batch", "course_name"=>"1", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"exam", "_"=>""}
+Completed in 33ms (View: 6, DB: 8) | 200 OK [http://localhost/exam/update_batch]
+
+
+Processing ExamGroupsController#index (for 127.0.0.1 at 2013-03-26 23:07:36) [GET]
+  Parameters: {"batch_id"=>"1", "action"=>"index", "controller"=>"exam_groups"}
+Rendering template within layouts/application
+Rendering exam_groups/index
+Completed in 99ms (View: 68, DB: 12) | 200 OK [http://localhost/batches/1/exam_groups]
+
+
+Processing ExamGroupsController#show (for 127.0.0.1 at 2013-03-26 23:07:42) [GET]
+  Parameters: {"batch_id"=>"1", "action"=>"show", "id"=>"1", "controller"=>"exam_groups"}
+Rendering template within layouts/application
+Rendering exam_groups/show
+Completed in 132ms (View: 85, DB: 23) | 200 OK [http://localhost/batches/1/exam_groups/1]
+
+
+Processing ExamsController#new (for 127.0.0.1 at 2013-03-26 23:07:51) [GET]
+  Parameters: {"action"=>"new", "exam_group_id"=>"1", "controller"=>"exams"}
+Rendering template within layouts/application
+Rendering exams/new
+Completed in 291ms (View: 242, DB: 12) | 200 OK [http://localhost/exam_groups/1/exams/new]
+
+
+Processing ExamController#settings (for 127.0.0.1 at 2013-03-26 23:08:32) [GET]
+  Parameters: {"action"=>"settings", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/settings
+Completed in 94ms (View: 70, DB: 9) | 200 OK [http://localhost/exam/settings]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-26 23:08:50) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 113ms (View: 87, DB: 11) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing StudentAttendanceController#index (for 127.0.0.1 at 2013-03-26 23:09:04) [GET]
+  Parameters: {"action"=>"index", "controller"=>"student_attendance"}
+Rendering template within layouts/application
+Rendering student_attendance/index
+Completed in 108ms (View: 77, DB: 6) | 200 OK [http://localhost/student_attendance]
+
+
+Processing AttendanceReportsController#index (for 127.0.0.1 at 2013-03-26 23:09:07) [GET]
+  Parameters: {"action"=>"index", "controller"=>"attendance_reports"}
+Rendering template within layouts/application
+Rendering attendance_reports/index
+Completed in 151ms (View: 74, DB: 42) | 200 OK [http://localhost/attendance_reports]
+
+
+Processing AttendanceReportsController#mode (for 127.0.0.1 at 2013-03-26 23:09:11) [POST]
+  Parameters: {"action"=>"mode", "batch_id"=>"1", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "subject_id"=>"", "controller"=>"attendance_reports", "_"=>""}
+Completed in 51ms (View: 23, DB: 9) | 200 OK [http://localhost/attendance_reports/mode]
+
+
+Processing AttendanceReportsController#show (for 127.0.0.1 at 2013-03-26 23:09:17) [POST]
+  Parameters: {"mode"=>"Monthly", "action"=>"show", "batch_id"=>"1", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "subject_id"=>"0", "controller"=>"attendance_reports", "_"=>""}
+Completed in 89ms (View: 57, DB: 10) | 200 OK [http://localhost/attendance_reports/show]
+
+
+Processing AttendanceReportsController#year (for 127.0.0.1 at 2013-03-26 23:09:21) [POST]
+  Parameters: {"month"=>"01", "action"=>"year", "batch_id"=>"1", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "subject_id"=>"0", "controller"=>"attendance_reports", "_"=>""}
+Completed in 43ms (View: 14, DB: 8) | 200 OK [http://localhost/attendance_reports/year]
+
+
+Processing AttendanceReportsController#report (for 127.0.0.1 at 2013-03-26 23:09:24) [POST]
+  Parameters: {"month"=>"1", "action"=>"report", "batch_id"=>"1", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "subject_id"=>"0", "year"=>"2013", "controller"=>"attendance_reports", "_"=>""}
+Completed in 35ms (View: 4, DB: 9) | 200 OK [http://localhost/attendance_reports/report]
+
+
+Processing AttendanceReportsController#year (for 127.0.0.1 at 2013-03-26 23:09:28) [POST]
+  Parameters: {"month"=>"02", "action"=>"year", "batch_id"=>"1", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "subject_id"=>"0", "controller"=>"attendance_reports", "_"=>""}
+Completed in 41ms (View: 14, DB: 9) | 200 OK [http://localhost/attendance_reports/year]
+
+
+Processing AttendanceReportsController#report (for 127.0.0.1 at 2013-03-26 23:09:32) [POST]
+  Parameters: {"month"=>"2", "action"=>"report", "batch_id"=>"1", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "subject_id"=>"0", "year"=>"2013", "controller"=>"attendance_reports", "_"=>""}
+Completed in 42ms (View: 3, DB: 13) | 200 OK [http://localhost/attendance_reports/report]
+
+
+Processing AttendanceReportsController#year (for 127.0.0.1 at 2013-03-26 23:09:36) [POST]
+  Parameters: {"month"=>"03", "action"=>"year", "batch_id"=>"1", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "subject_id"=>"0", "controller"=>"attendance_reports", "_"=>""}
+Completed in 41ms (View: 13, DB: 9) | 200 OK [http://localhost/attendance_reports/year]
+
+
+Processing AttendanceReportsController#report (for 127.0.0.1 at 2013-03-26 23:09:39) [POST]
+  Parameters: {"month"=>"3", "action"=>"report", "batch_id"=>"1", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "subject_id"=>"0", "year"=>"2013", "controller"=>"attendance_reports", "_"=>""}
+Completed in 534ms (View: 64, DB: 272) | 200 OK [http://localhost/attendance_reports/report]
+
+
+Processing AttendancesController#index (for 127.0.0.1 at 2013-03-26 23:10:09) [GET]
+  Parameters: {"action"=>"index", "controller"=>"attendances"}
+Rendering template within layouts/application
+Rendering attendances/index
+Completed in 110ms (View: 66, DB: 12) | 200 OK [http://localhost/attendances]
+
+
+Processing AttendancesController#daily_register to json (for 127.0.0.1 at 2013-03-26 23:10:13) [GET]
+  Parameters: {"format"=>"json", "action"=>"daily_register", "batch_id"=>"1", "controller"=>"attendances"}
+Completed in 168ms (View: 14, DB: 74) | 200 OK [http://localhost/attendances/daily_register.json?batch_id=1]
+
+
+Processing AttendancesController#new (for 127.0.0.1 at 2013-03-26 23:10:35) [GET]
+  Parameters: {"action"=>"new", "id"=>"1", "date"=>"2013-03-25", "controller"=>"attendances"}
+Rendering attendances/new
+Completed in 67ms (View: 38, DB: 9) | 200 OK [http://localhost/attendances/new?id=1&date=2013-03-25]
+
+
+Processing StudentController#index (for 127.0.0.1 at 2013-03-26 23:11:01) [GET]
+  Parameters: {"action"=>"index", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/index
+Completed in 82ms (View: 56, DB: 9) | 200 OK [http://localhost/student]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-03-26 23:11:06) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"student", "_"=>"", "query"=>"s"}
+Rendering student/search_ajax
+Completed in 26ms (View: 3, DB: 8) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-03-26 23:11:07) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"student", "_"=>"", "query"=>"sm"}
+Rendering student/search_ajax
+Completed in 26ms (View: 3, DB: 7) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-03-26 23:11:08) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"student", "_"=>"", "query"=>"smith"}
+Rendering student/search_ajax
+Completed in 40ms (View: 9, DB: 9) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-03-26 23:11:11) [POST]
+  Parameters: {"option"=>"former", "action"=>"search_ajax", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"student", "_"=>"", "query"=>"smith"}
+Completed in 88ms (View: 10, DB: 60) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-03-26 23:11:14) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"student", "_"=>"", "query"=>"smith"}
+Rendering student/search_ajax
+Completed in 42ms (View: 9, DB: 11) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing TimetableController#index (for 127.0.0.1 at 2013-03-26 23:11:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"timetable"}
+Rendering template within layouts/application
+Rendering timetable/index
+Completed in 142ms (View: 105, DB: 9) | 200 OK [http://localhost/timetable]
+
+
+Processing TimetableController#view (for 127.0.0.1 at 2013-03-26 23:11:47) [GET]
+  Parameters: {"action"=>"view", "controller"=>"timetable"}
+Rendering template within layouts/application
+Rendering timetable/view
+Completed in 348ms (View: 298, DB: 32) | 200 OK [http://localhost/timetable/view]
+
+
+Processing TimetableController#new_timetable (for 127.0.0.1 at 2013-03-26 23:11:54) [GET]
+  Parameters: {"action"=>"new_timetable", "controller"=>"timetable"}
+Rendering template within layouts/application
+Rendering timetable/new_timetable
+Completed in 112ms (View: 84, DB: 8) | 200 OK [http://localhost/timetable/new_timetable]
+
+
+Processing TimetableController#timetable (for 127.0.0.1 at 2013-03-26 23:12:08) [GET]
+  Parameters: {"action"=>"timetable", "controller"=>"timetable"}
+Rendering template within layouts/application
+Rendering timetable/timetable
+Completed in 288ms (View: 71, DB: 197) | 200 OK [http://localhost/timetable/timetable]
+
+
+Processing TimetableController#teachers_timetable (for 127.0.0.1 at 2013-03-26 23:12:16) [GET]
+  Parameters: {"action"=>"teachers_timetable", "controller"=>"timetable"}
+Rendering template within layouts/application
+Rendering timetable/teachers_timetable
+Completed in 117ms (View: 77, DB: 19) | 200 OK [http://localhost/timetable/teachers_timetable]
+
+
+Processing EmployeeController#hr (for 127.0.0.1 at 2013-03-26 23:12:30) [GET]
+  Parameters: {"action"=>"hr", "controller"=>"employee"}
+Rendering template within layouts/application
+Rendering employee/hr
+Completed in 155ms (View: 104, DB: 10) | 200 OK [http://localhost/employee/hr]
+
+
+Processing FinanceController#index (for 127.0.0.1 at 2013-03-26 23:12:42) [GET]
+  Parameters: {"action"=>"index", "controller"=>"finance"}
+Rendering template within layouts/application
+Rendering finance/index
+Completed in 134ms (View: 93, DB: 9) | 200 OK [http://localhost/finance]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2013-03-26 23:12:49) [GET]
+  Parameters: {"action"=>"logout", "controller"=>"user"}
+Redirected to http://localhost:3000/
+Completed in 24ms (DB: 5) | 302 Found [http://localhost/user/logout]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-26 23:12:49) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 32ms (View: 24, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-03-26 23:12:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/application/app_fedena_logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-26 23:36:16) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "controller"=>"user", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed in 11ms (DB: 5) | 302 Found [http://localhost/]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-26 23:36:16) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 716ms (View: 696, DB: 12) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing ConfigurationController#index (for 127.0.0.1 at 2013-03-26 23:36:20) [GET]
+  Parameters: {"action"=>"index", "controller"=>"configuration"}
+Rendering template within layouts/application
+Rendering configuration/index
+Completed in 126ms (View: 86, DB: 15) | 200 OK [http://localhost/configuration]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-03-26 23:36:29) [GET]
+  Parameters: {"action"=>"settings", "controller"=>"configuration"}
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 397ms (View: 308, DB: 39) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-03-26 23:38:02) [POST]
+  Parameters: {"commit"=>"► Update", "action"=>"settings", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "school_detail"=>{"school_logo"=>#<File:C:/Users/OWOLABI/AppData/Local/Temp/RackMultipart20130326-1348-1ksy2y5-0>}, "controller"=>"configuration", "configuration"=>{"currency_type"=>"N", "student_attendance_type"=>"Daily", "enable_news_comment_moderation"=>"1", "admission_number_auto_increment"=>"1", "cwa"=>"0", "gpa"=>"1", "network_state"=>"Online", "institution_phone_no"=>"", "employee_number_auto_increment"=>"1", "institution_address"=>"Kaduna", "cce"=>"0", "financial_year_start_date"=>"2013-03-24", "default_country"=>"130", "institution_name"=>"X University", "time_zone"=>"1", "locale"=>"en", "financial_year_end_date"=>"2014-03-24"}}
+[paperclip] identify -format %wx%h "C:/Users/OWOLABI/AppData/Local/Temp/stream20130326-1348-1grihg7-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/Users/OWOLABI/AppData/Local/Temp/stream20130326-1348-1grihg7-0.jpg is not recognized by the 'identify' command.>
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 469ms (View: 125, DB: 45) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-03-26 23:38:51) [POST]
+  Parameters: {"commit"=>"► Update", "action"=>"settings", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "school_detail"=>{"school_logo"=>#<File:C:/Users/OWOLABI/AppData/Local/Temp/RackMultipart20130326-1348-1quhaon-0>}, "controller"=>"configuration", "configuration"=>{"currency_type"=>"N", "student_attendance_type"=>"Daily", "enable_news_comment_moderation"=>"1", "admission_number_auto_increment"=>"1", "cwa"=>"0", "gpa"=>"1", "network_state"=>"Online", "institution_phone_no"=>"", "employee_number_auto_increment"=>"1", "institution_address"=>"Kaduna", "cce"=>"0", "financial_year_start_date"=>"2013-03-24", "default_country"=>"130", "institution_name"=>"X University", "time_zone"=>"1", "locale"=>"en", "financial_year_end_date"=>"2014-03-24"}}
+[paperclip] identify -format %wx%h "C:/Users/OWOLABI/AppData/Local/Temp/stream20130326-1348-19pzwc9-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/Users/OWOLABI/AppData/Local/Temp/stream20130326-1348-19pzwc9-0.jpg is not recognized by the 'identify' command.>
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 409ms (View: 109, DB: 57) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-03-26 23:43:00) [POST]
+  Parameters: {"commit"=>"► Update", "action"=>"settings", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "school_detail"=>{"school_logo"=>#<File:C:/Users/OWOLABI/AppData/Local/Temp/RackMultipart20130326-1348-19mhb39-0>}, "controller"=>"configuration", "configuration"=>{"currency_type"=>"N", "student_attendance_type"=>"Daily", "enable_news_comment_moderation"=>"1", "admission_number_auto_increment"=>"1", "cwa"=>"0", "gpa"=>"1", "network_state"=>"Online", "institution_phone_no"=>"", "employee_number_auto_increment"=>"1", "institution_address"=>"Kaduna", "cce"=>"0", "financial_year_start_date"=>"2013-03-24", "default_country"=>"130", "institution_name"=>"X University", "time_zone"=>"1", "locale"=>"en", "financial_year_end_date"=>"2014-03-24"}}
+[paperclip] identify -format %wx%h "C:/Users/OWOLABI/AppData/Local/Temp/stream20130326-1348-pvddl5-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/Users/OWOLABI/AppData/Local/Temp/stream20130326-1348-pvddl5-0.jpg is not recognized by the 'identify' command.>
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 884ms (View: 95, DB: 54) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-03-26 23:45:19) [POST]
+  Parameters: {"commit"=>"► Update", "action"=>"settings", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "school_detail"=>{"school_logo"=>#<File:C:/Users/OWOLABI/AppData/Local/Temp/RackMultipart20130326-1348-tnvefp-0>}, "controller"=>"configuration", "configuration"=>{"currency_type"=>"N", "student_attendance_type"=>"Daily", "enable_news_comment_moderation"=>"1", "admission_number_auto_increment"=>"1", "cwa"=>"0", "gpa"=>"1", "network_state"=>"Online", "institution_phone_no"=>"", "employee_number_auto_increment"=>"1", "institution_address"=>"Kaduna", "cce"=>"0", "financial_year_start_date"=>"2013-03-24", "default_country"=>"130", "institution_name"=>"X University", "time_zone"=>"1", "locale"=>"en", "financial_year_end_date"=>"2014-03-24"}}
+[paperclip] identify -format %wx%h "C:/Users/OWOLABI/AppData/Local/Temp/stream20130326-1348-1fvl0r1-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/Users/OWOLABI/AppData/Local/Temp/stream20130326-1348-1fvl0r1-0.jpg is not recognized by the 'identify' command.>
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 709ms (View: 137, DB: 51) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-03-26 23:45:38) [POST]
+  Parameters: {"commit"=>"► Update", "action"=>"settings", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "school_detail"=>{"school_logo"=>#<File:C:/Users/OWOLABI/AppData/Local/Temp/RackMultipart20130326-1348-9j40xm-0>}, "controller"=>"configuration", "configuration"=>{"currency_type"=>"N", "student_attendance_type"=>"Daily", "enable_news_comment_moderation"=>"1", "admission_number_auto_increment"=>"1", "cwa"=>"0", "gpa"=>"1", "network_state"=>"Online", "institution_phone_no"=>"", "employee_number_auto_increment"=>"1", "institution_address"=>"Kaduna", "cce"=>"0", "financial_year_start_date"=>"2013-03-24", "default_country"=>"130", "institution_name"=>"X University", "time_zone"=>"1", "locale"=>"en", "financial_year_end_date"=>"2014-03-24"}}
+[paperclip] identify -format %wx%h "C:/Users/OWOLABI/AppData/Local/Temp/stream20130326-1348-1dkrjvl-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/Users/OWOLABI/AppData/Local/Temp/stream20130326-1348-1dkrjvl-0.jpg is not recognized by the 'identify' command.>
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 376ms (View: 80, DB: 63) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-03-26 23:46:17) [POST]
+  Parameters: {"commit"=>"► Update", "action"=>"settings", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "school_detail"=>{"school_logo"=>#<File:C:/Users/OWOLABI/AppData/Local/Temp/RackMultipart20130326-1348-1otelv1-0>}, "controller"=>"configuration", "configuration"=>{"currency_type"=>"N", "student_attendance_type"=>"Daily", "enable_news_comment_moderation"=>"1", "admission_number_auto_increment"=>"1", "cwa"=>"0", "gpa"=>"1", "network_state"=>"Online", "institution_phone_no"=>"", "employee_number_auto_increment"=>"1", "institution_address"=>"Kaduna", "cce"=>"0", "financial_year_start_date"=>"2013-03-24", "default_country"=>"130", "institution_name"=>"X University", "time_zone"=>"1", "locale"=>"en", "financial_year_end_date"=>"2014-03-24"}}
+[paperclip] identify -format %wx%h "C:/Users/OWOLABI/AppData/Local/Temp/stream20130326-1348-1qvgtki-0.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/Users/OWOLABI/AppData/Local/Temp/stream20130326-1348-1qvgtki-0.png is not recognized by the 'identify' command.>
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 661ms (View: 314, DB: 56) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-03-26 23:46:55) [POST]
+  Parameters: {"commit"=>"► Update", "action"=>"settings", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "school_detail"=>{"school_logo"=>#<File:C:/Users/OWOLABI/AppData/Local/Temp/RackMultipart20130326-1348-1xjmjyz-0>}, "controller"=>"configuration", "configuration"=>{"currency_type"=>"N", "student_attendance_type"=>"Daily", "enable_news_comment_moderation"=>"1", "admission_number_auto_increment"=>"1", "cwa"=>"0", "gpa"=>"1", "network_state"=>"Online", "institution_phone_no"=>"", "employee_number_auto_increment"=>"1", "institution_address"=>"Kaduna", "cce"=>"0", "financial_year_start_date"=>"2013-03-24", "default_country"=>"130", "institution_name"=>"X University", "time_zone"=>"1", "locale"=>"en", "financial_year_end_date"=>"2014-03-24"}}
+[paperclip] identify -format %wx%h "C:/Users/OWOLABI/AppData/Local/Temp/stream20130326-1348-iahf42-0.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/Users/OWOLABI/AppData/Local/Temp/stream20130326-1348-iahf42-0.png is not recognized by the 'identify' command.>
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 369ms (View: 100, DB: 60) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-03-26 23:47:12) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 113ms (View: 90, DB: 9) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing ConfigurationController#index (for 127.0.0.1 at 2013-03-26 23:47:17) [GET]
+  Parameters: {"action"=>"index", "controller"=>"configuration"}
+Rendering template within layouts/application
+Rendering configuration/index
+Completed in 116ms (View: 93, DB: 8) | 200 OK [http://localhost/configuration]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-03-26 23:47:20) [GET]
+  Parameters: {"action"=>"settings", "controller"=>"configuration"}
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 163ms (View: 86, DB: 35) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-03-26 23:47:35) [POST]
+  Parameters: {"commit"=>"► Update", "action"=>"settings", "authenticity_token"=>"ucKIql5RlFTzh9sU9yg55GjHsxtv9TcdA6wK7NkzS20=", "school_detail"=>{"school_logo"=>#<File:C:/Users/OWOLABI/AppData/Local/Temp/RackMultipart20130326-1348-u95pfb-0>}, "controller"=>"configuration", "configuration"=>{"currency_type"=>"N", "student_attendance_type"=>"Daily", "enable_news_comment_moderation"=>"1", "admission_number_auto_increment"=>"1", "cwa"=>"0", "gpa"=>"1", "network_state"=>"Online", "institution_phone_no"=>"", "employee_number_auto_increment"=>"1", "institution_address"=>"Kaduna", "cce"=>"0", "financial_year_start_date"=>"2013-03-24", "default_country"=>"130", "institution_name"=>"X University", "time_zone"=>"1", "locale"=>"en", "financial_year_end_date"=>"2014-03-24"}}
+[paperclip] identify -format %wx%h "C:/Users/OWOLABI/AppData/Local/Temp/stream20130326-1348-12e7o4e-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/Users/OWOLABI/AppData/Local/Temp/stream20130326-1348-12e7o4e-0.jpg is not recognized by the 'identify' command.>
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 361ms (View: 112, DB: 52) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2013-03-26 23:48:04) [GET]
+  Parameters: {"action"=>"logout", "controller"=>"user"}
+Redirected to http://localhost:3000/
+Completed in 16ms (DB: 5) | 302 Found [http://localhost/user/logout]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-03-26 23:48:05) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 40ms (View: 31, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-03-26 23:48:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/application/app_fedena_logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-02 21:49:41) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 1195ms (View: 27, DB: 56) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-04-02 21:49:43) [GET]
+
+ActionController::RoutingError (No route matches "/images/application/app_fedena_logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-02 22:23:49) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 1287ms (View: 25, DB: 59) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-04-02 22:23:52) [GET]
+
+ActionController::RoutingError (No route matches "/images/application/app_fedena_logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-02 22:33:01) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 48ms (View: 28, DB: 15) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-04-02 22:33:01) [GET]
+
+ActionController::RoutingError (No route matches "/images/application/app_fedena_logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-02 22:33:06) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 53ms (View: 39, DB: 6) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-04-02 22:33:07) [GET]
+
+ActionController::RoutingError (No route matches "/images/application/app_fedena_logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-02 23:02:02) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 35ms (View: 25, DB: 5) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-04-02 23:02:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/application/app_fedena_logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-02 23:02:06) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 36ms (View: 26, DB: 5) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-04-02 23:02:07) [GET]
+
+ActionController::RoutingError (No route matches "/images/application/app_fedena_logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-02 23:06:02) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 37ms (View: 25, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-04-02 23:06:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/application/app_fedena_logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-02 23:14:07) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 32ms (View: 24, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-02 23:15:36) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 47ms (View: 37, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-02 23:15:42) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 28ms (View: 18, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-02 23:16:42) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 27ms (View: 20, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-04-02 23:16:42) [GET]
+
+ActionController::RoutingError (No route matches "/images/application/app_fedena_logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-02 23:23:12) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 40ms (View: 24, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-02 23:26:42) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "controller"=>"user", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed in 150ms (DB: 124) | 302 Found [http://localhost/]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-04-02 23:26:42) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 1334ms (View: 1241, DB: 78) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing StudentController#index (for 127.0.0.1 at 2013-04-02 23:26:51) [GET]
+  Parameters: {"action"=>"index", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/index
+Completed in 84ms (View: 58, DB: 5) | 200 OK [http://localhost/student]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-04-02 23:26:56) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "controller"=>"student", "_"=>"", "query"=>"sm"}
+Rendering student/search_ajax
+Completed in 66ms (View: 8, DB: 42) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-04-02 23:26:56) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "controller"=>"student", "_"=>"", "query"=>"smiy"}
+Rendering student/search_ajax
+Completed in 85ms (View: 3, DB: 68) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-04-02 23:27:00) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "controller"=>"student", "_"=>"", "query"=>"smi"}
+Rendering student/search_ajax
+Completed in 152ms (View: 17, DB: 80) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-04-02 23:27:00) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "controller"=>"student", "_"=>"", "query"=>"smith"}
+Rendering student/search_ajax
+Completed in 38ms (View: 9, DB: 8) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#profile (for 127.0.0.1 at 2013-04-02 23:27:03) [GET]
+  Parameters: {"action"=>"profile", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/profile
+Completed in 350ms (View: 194, DB: 126) | 200 OK [http://localhost/student/profile/1]
+
+
+Processing StudentController#profile_pdf (for 127.0.0.1 at 2013-04-02 23:27:14) [GET]
+  Parameters: {"action"=>"profile_pdf", "id"=>"1", "controller"=>"student"}
+***************WICKED***************
+Rendering template within layouts/pdf
+Rendering student/profile_pdf
+Rendering template within layouts/pdf
+Rendering layouts/pdf_header.html.erb
+Rendering template within layouts/pdf
+Rendering layouts/pdf_footer.html.erb
+Sending data profile_pdf.pdf
+Completed in 47847ms (View: 2, DB: 0) | 200 OK [http://localhost/student/profile_pdf/1]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-04-02 23:29:52) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 107ms (View: 85, DB: 9) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-04-02 23:29:59) [GET]
+  Parameters: {"action"=>"settings", "controller"=>"configuration"}
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 1153ms (View: 869, DB: 227) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-04-02 23:56:19) [POST]
+  Parameters: {"commit"=>"► Update", "action"=>"settings", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "school_detail"=>{"school_logo"=>#<File:C:/Users/OWOLABI/AppData/Local/Temp/RackMultipart20130402-7148-tpvsl7-0>}, "controller"=>"configuration", "configuration"=>{"currency_type"=>"N", "student_attendance_type"=>"Daily", "enable_news_comment_moderation"=>"1", "admission_number_auto_increment"=>"1", "cwa"=>"0", "gpa"=>"1", "network_state"=>"Online", "institution_phone_no"=>"", "employee_number_auto_increment"=>"1", "institution_address"=>"Kaduna", "cce"=>"0", "financial_year_start_date"=>"2013-03-24", "default_country"=>"130", "institution_name"=>"X University", "time_zone"=>"1", "locale"=>"en", "financial_year_end_date"=>"2014-03-24"}}
+[paperclip] identify -format %wx%h "C:/Users/OWOLABI/AppData/Local/Temp/stream20130402-7148-2raaq3-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/Users/OWOLABI/AppData/Local/Temp/stream20130402-7148-2raaq3-0.jpg is not recognized by the 'identify' command.>
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 696ms (View: 218, DB: 42) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2013-04-03 00:13:27) [GET]
+  Parameters: {"action"=>"logout", "controller"=>"user"}
+Redirected to http://localhost:3000/
+Completed in 24ms (DB: 7) | 302 Found [http://localhost/user/logout]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-03 00:13:27) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 36ms (View: 26, DB: 5) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-03 00:42:12) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "controller"=>"user", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed in 17ms (DB: 5) | 302 Found [http://localhost/]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-04-03 00:42:12) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 642ms (View: 600, DB: 29) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-04-03 00:42:17) [GET]
+  Parameters: {"action"=>"settings", "controller"=>"configuration"}
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 319ms (View: 73, DB: 31) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-04-03 00:42:33) [POST]
+  Parameters: {"commit"=>"► Update", "action"=>"settings", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "school_detail"=>{"school_logo"=>#<File:C:/Users/OWOLABI/AppData/Local/Temp/RackMultipart20130403-7148-q90ijq-0>}, "controller"=>"configuration", "configuration"=>{"currency_type"=>"N", "student_attendance_type"=>"Daily", "enable_news_comment_moderation"=>"1", "admission_number_auto_increment"=>"1", "cwa"=>"0", "gpa"=>"1", "network_state"=>"Online", "institution_phone_no"=>"", "employee_number_auto_increment"=>"1", "institution_address"=>"Kaduna", "cce"=>"0", "financial_year_start_date"=>"2013-03-24", "default_country"=>"130", "institution_name"=>"X University", "time_zone"=>"1", "locale"=>"en", "financial_year_end_date"=>"2014-03-24"}}
+[paperclip] identify -format %wx%h "C:/Users/OWOLABI/AppData/Local/Temp/stream20130403-7148-98lj86-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/Users/OWOLABI/AppData/Local/Temp/stream20130403-7148-98lj86-0.jpg is not recognized by the 'identify' command.>
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 414ms (View: 82, DB: 41) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2013-04-03 00:42:47) [GET]
+  Parameters: {"action"=>"logout", "controller"=>"user"}
+Redirected to http://localhost:3000/
+Completed in 15ms (DB: 4) | 302 Found [http://localhost/user/logout]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-03 00:42:48) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 32ms (View: 25, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-03 00:46:21) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 95ms (View: 35, DB: 20) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-03 00:46:48) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "controller"=>"user", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed in 42ms (DB: 16) | 302 Found [http://localhost/]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-04-03 00:46:48) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 1137ms (View: 1101, DB: 19) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-04-03 00:46:54) [GET]
+  Parameters: {"action"=>"settings", "controller"=>"configuration"}
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 721ms (View: 616, DB: 49) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-04-03 00:47:19) [POST]
+  Parameters: {"commit"=>"► Update", "action"=>"settings", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "school_detail"=>{"school_logo"=>#<File:C:/Users/OWOLABI/AppData/Local/Temp/RackMultipart20130403-3736-wklhp9-0>}, "controller"=>"configuration", "configuration"=>{"currency_type"=>"N", "student_attendance_type"=>"Daily", "enable_news_comment_moderation"=>"1", "admission_number_auto_increment"=>"1", "cwa"=>"0", "gpa"=>"1", "network_state"=>"Online", "institution_phone_no"=>"", "employee_number_auto_increment"=>"1", "institution_address"=>"Kaduna", "cce"=>"0", "financial_year_start_date"=>"2013-03-24", "default_country"=>"130", "institution_name"=>"X University", "time_zone"=>"1", "locale"=>"en", "financial_year_end_date"=>"2014-03-24"}}
+[paperclip] identify -format %wx%h "C:/Users/OWOLABI/AppData/Local/Temp/stream20130403-3736-1ys84ca-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/Users/OWOLABI/AppData/Local/Temp/stream20130403-3736-1ys84ca-0.jpg is not recognized by the 'identify' command.>
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 478ms (View: 100, DB: 57) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing StudentController#index (for 127.0.0.1 at 2013-04-03 00:48:33) [GET]
+  Parameters: {"action"=>"index", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/index
+Completed in 103ms (View: 70, DB: 6) | 200 OK [http://localhost/student]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-04-03 00:48:36) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "controller"=>"student", "_"=>"", "query"=>"s"}
+Rendering student/search_ajax
+Completed in 24ms (View: 8, DB: 6) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-04-03 00:48:37) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "controller"=>"student", "_"=>"", "query"=>"sm"}
+Rendering student/search_ajax
+Completed in 26ms (View: 3, DB: 7) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-04-03 00:48:38) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "controller"=>"student", "_"=>"", "query"=>"smit"}
+Rendering student/search_ajax
+Completed in 42ms (View: 9, DB: 9) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-04-03 00:48:39) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "controller"=>"student", "_"=>"", "query"=>"smith"}
+Rendering student/search_ajax
+Completed in 26ms (View: 5, DB: 5) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#profile (for 127.0.0.1 at 2013-04-03 00:48:40) [GET]
+  Parameters: {"action"=>"profile", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/profile
+Completed in 381ms (View: 136, DB: 41) | 200 OK [http://localhost/student/profile/1]
+
+
+Processing StudentController#edit (for 127.0.0.1 at 2013-04-03 00:49:06) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/edit
+Completed in 281ms (View: 159, DB: 100) | 200 OK [http://localhost/student/edit/1]
+
+
+Processing StudentController#edit (for 127.0.0.1 at 2013-04-03 00:49:32) [POST]
+  Parameters: {"commit"=>"► Update", "action"=>"edit", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "id"=>"1", "student"=>{"photo"=>#<File:C:/Users/OWOLABI/AppData/Local/Temp/RackMultipart20130403-3736-ahafcf-0>, "city"=>"Kaduna", "pin_code"=>"2345", "student_category_id"=>"", "nationality_id"=>"130", "admission_no"=>"0001", "country_id"=>"130", "language"=>"Yoruba", "batch_id"=>"1", "phone1"=>"2348037868610", "gender"=>"m", "phone2"=>"2348037868610", "blood_group"=>"O+", "admission_date"=>"2013-03-25", "last_name"=>"Smith", "is_sms_enabled"=>"1", "religion"=>"Christianity", "date_of_birth"=>"1995-01-24", "address_line1"=>"No 3 tony ogenewe close narayi high-cost", "birth_place"=>"", "email"=>"", "state"=>"Kaduna", "address_line2"=>"", "middle_name"=>"James", "first_name"=>"John"}, "controller"=>"student"}
+[paperclip] identify -format %wx%h "C:/Users/OWOLABI/AppData/Local/Temp/stream20130403-3736-158bugh-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/Users/OWOLABI/AppData/Local/Temp/stream20130403-3736-158bugh-0.jpg is not recognized by the 'identify' command.>
+Rendering template within layouts/application
+Rendering student/edit
+Completed in 533ms (View: 142, DB: 118) | 200 OK [http://localhost/student/edit/1]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2013-04-03 00:53:09) [GET]
+  Parameters: {"action"=>"logout", "controller"=>"user"}
+Redirected to http://localhost:3000/
+Completed in 20ms (DB: 5) | 302 Found [http://localhost/user/logout]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-03 00:53:09) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 33ms (View: 23, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-03 00:58:26) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 78ms (View: 33, DB: 20) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-03 00:58:40) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "controller"=>"user", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed in 45ms (DB: 16) | 302 Found [http://localhost/]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-04-03 00:58:40) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 1043ms (View: 1018, DB: 14) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-04-03 00:58:47) [GET]
+  Parameters: {"action"=>"settings", "controller"=>"configuration"}
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 740ms (View: 656, DB: 42) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-04-03 00:59:08) [POST]
+  Parameters: {"commit"=>"► Update", "action"=>"settings", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "school_detail"=>{"school_logo"=>#<File:C:/Users/OWOLABI/AppData/Local/Temp/RackMultipart20130403-4640-1k9obar-0>}, "controller"=>"configuration", "configuration"=>{"currency_type"=>"N", "student_attendance_type"=>"Daily", "enable_news_comment_moderation"=>"1", "admission_number_auto_increment"=>"1", "cwa"=>"0", "gpa"=>"1", "network_state"=>"Online", "institution_phone_no"=>"", "employee_number_auto_increment"=>"1", "institution_address"=>"Kaduna", "cce"=>"0", "financial_year_start_date"=>"2013-03-24", "default_country"=>"130", "institution_name"=>"X University", "time_zone"=>"1", "locale"=>"en", "financial_year_end_date"=>"2014-03-24"}}
+[paperclip] identify -format %wx%h "C:/Users/OWOLABI/AppData/Local/Temp/stream20130403-4640-1fqcd44-0.jpg[0]" 2>NUL
+[paperclip] convert "C:/Users/OWOLABI/AppData/Local/Temp/stream20130403-4640-1fqcd44-0.jpg[0]" -resize "150x" -crop "150x110+0+20" +repage "C:/Users/OWOLABI/AppData/Local/Temp/stream20130403-4640-1fqcd44-020130403-4640-22pl8z-0" 2>NUL
+[paperclip] Saving attachments.
+[paperclip] saving C:/fedena/fedena-v2.3-bundle-win/public/system/school_details/logos/000/000/001/original/35969-m.jpg
+Redirected to http://localhost:3000/configuration/settings
+Completed in 2254ms (DB: 124) | 302 Found [http://localhost/configuration/settings]
+
+
+Processing ConfigurationController#settings (for 127.0.0.1 at 2013-04-03 00:59:11) [GET]
+  Parameters: {"action"=>"settings", "controller"=>"configuration"}
+Rendering template within layouts/application
+Rendering configuration/settings
+Completed in 846ms (View: 777, DB: 35) | 200 OK [http://localhost/configuration/settings]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2013-04-03 00:59:30) [GET]
+  Parameters: {"action"=>"logout", "controller"=>"user"}
+Redirected to http://localhost:3000/
+Completed in 22ms (DB: 5) | 302 Found [http://localhost/user/logout]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-03 00:59:30) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 33ms (View: 25, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-03 00:59:54) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "controller"=>"user", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed in 14ms (DB: 4) | 302 Found [http://localhost/]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-04-03 00:59:54) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 734ms (View: 711, DB: 10) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing StudentController#index (for 127.0.0.1 at 2013-04-03 01:00:09) [GET]
+  Parameters: {"action"=>"index", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/index
+Completed in 106ms (View: 70, DB: 9) | 200 OK [http://localhost/student]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-04-03 01:00:12) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "controller"=>"student", "_"=>"", "query"=>"s"}
+Rendering student/search_ajax
+Completed in 29ms (View: 7, DB: 5) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-04-03 01:00:13) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "controller"=>"student", "_"=>"", "query"=>"smi"}
+Rendering student/search_ajax
+Completed in 95ms (View: 1, DB: 16) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-04-03 01:00:14) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"02cI2kFIsa4XM8PPo7DCpHeC0plMBmI35qxRdSIFnTM=", "controller"=>"student", "_"=>"", "query"=>"smith"}
+Rendering student/search_ajax
+Completed in 39ms (View: 8, DB: 8) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#profile (for 127.0.0.1 at 2013-04-03 01:00:17) [GET]
+  Parameters: {"action"=>"profile", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/profile
+Completed in 243ms (View: 169, DB: 47) | 200 OK [http://localhost/student/profile/1]
+
+
+Processing StudentController#profile_pdf (for 127.0.0.1 at 2013-04-03 01:00:26) [GET]
+  Parameters: {"action"=>"profile_pdf", "id"=>"1", "controller"=>"student"}
+***************WICKED***************
+Rendering template within layouts/pdf
+Rendering student/profile_pdf
+Rendering template within layouts/pdf
+Rendering layouts/pdf_header.html.erb
+Rendering template within layouts/pdf
+Rendering layouts/pdf_footer.html.erb
+Sending data profile_pdf.pdf
+Completed in 43260ms (View: 0, DB: 0) | 200 OK [http://localhost/student/profile_pdf/1]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2013-04-03 01:01:55) [GET]
+  Parameters: {"action"=>"logout", "controller"=>"user"}
+Redirected to http://localhost:3000/
+Completed in 18ms (DB: 7) | 302 Found [http://localhost/user/logout]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-03 01:01:55) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 22ms (View: 14, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-03 01:12:38) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 35ms (View: 25, DB: 5) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-03 01:12:43) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 33ms (View: 25, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-03 01:13:21) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 20ms (View: 14, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-05 20:05:59) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+Rendering template within layouts/login
+Rendering user/login
+Completed in 1548ms (View: 63, DB: 244) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-04-05 20:06:15) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"kwN6EPaKH6JVFuoXykbkzWoxA2CB9/dWSHY6b+vGcDI=", "controller"=>"user", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed in 118ms (DB: 91) | 302 Found [http://localhost/]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-04-05 20:06:15) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 1338ms (View: 1139, DB: 186) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing StudentController#admission1 (for 127.0.0.1 at 2013-04-05 20:06:35) [GET]
+  Parameters: {"action"=>"admission1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/admission1
+Completed in 1407ms (View: 926, DB: 421) | 200 OK [http://localhost/student/admission1]
+
+
+Processing StudentController#index (for 127.0.0.1 at 2013-04-05 20:06:43) [GET]
+  Parameters: {"action"=>"index", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/index
+Completed in 98ms (View: 72, DB: 11) | 200 OK [http://localhost/student]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-04-05 20:06:49) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"kwN6EPaKH6JVFuoXykbkzWoxA2CB9/dWSHY6b+vGcDI=", "controller"=>"student", "_"=>"", "query"=>"sm"}
+Rendering student/search_ajax
+Completed in 33ms (View: 9, DB: 8) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-04-05 20:06:50) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"kwN6EPaKH6JVFuoXykbkzWoxA2CB9/dWSHY6b+vGcDI=", "controller"=>"student", "_"=>"", "query"=>"smi"}
+Rendering student/search_ajax
+Completed in 49ms (View: 14, DB: 8) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-04-05 20:06:51) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"kwN6EPaKH6JVFuoXykbkzWoxA2CB9/dWSHY6b+vGcDI=", "controller"=>"student", "_"=>"", "query"=>"smith"}
+Rendering student/search_ajax
+Completed in 40ms (View: 9, DB: 12) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#profile (for 127.0.0.1 at 2013-04-05 20:06:53) [GET]
+  Parameters: {"action"=>"profile", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/profile
+Completed in 547ms (View: 334, DB: 183) | 200 OK [http://localhost/student/profile/1]
+
+
+Processing StudentController#profile_pdf (for 127.0.0.1 at 2013-04-05 20:07:16) [GET]
+  Parameters: {"action"=>"profile_pdf", "id"=>"1", "controller"=>"student"}
+***************WICKED***************
+Rendering template within layouts/pdf
+Rendering student/profile_pdf
+Rendering template within layouts/pdf
+Rendering layouts/pdf_header.html.erb
+Rendering template within layouts/pdf
+Rendering layouts/pdf_footer.html.erb
+Sending data profile_pdf.pdf
+Completed in 44812ms (View: 2, DB: 0) | 200 OK [http://localhost/student/profile_pdf/1]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-04-05 20:08:00) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 84ms (View: 47, DB: 11) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-04-05 20:08:01) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Completed in 66ms (View: 52, DB: 6) | 200 OK [http://localhost/user/dashboard]
+
+
+Processing NewsController#index (for 127.0.0.1 at 2013-04-05 20:08:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"news"}
+Rendering template within layouts/application
+Rendering news/index
+Completed in 97ms (View: 63, DB: 9) | 200 OK [http://localhost/news]
+
+
+Processing ExamController#index (for 127.0.0.1 at 2013-04-05 20:08:41) [GET]
+  Parameters: {"action"=>"index", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/index
+Completed in 250ms (View: 216, DB: 5) | 200 OK [http://localhost/exam]
+
+
+Processing ExamController#settings (for 127.0.0.1 at 2013-04-05 20:08:46) [GET]
+  Parameters: {"action"=>"settings", "controller"=>"exam"}
+Rendering template within layouts/application
+Rendering exam/settings
+Completed in 106ms (View: 81, DB: 8) | 200 OK [http://localhost/exam/settings]
+
+
+Processing GradingLevelsController#index (for 127.0.0.1 at 2013-04-05 20:08:49) [GET]
+  Parameters: {"action"=>"index", "controller"=>"grading_levels"}
+Rendering template within layouts/application
+Rendering grading_levels/index
+Completed in 261ms (View: 142, DB: 89) | 200 OK [http://localhost/grading_levels]
+
+
+Processing GradingLevelsController#edit (for 127.0.0.1 at 2013-04-05 20:09:16) [GET]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"kwN6EPaKH6JVFuoXykbkzWoxA2CB9/dWSHY6b+vGcDI=", "id"=>"1", "controller"=>"grading_levels"}
+Rendering grading_levels/edit
+Completed in 61ms (View: 31, DB: 8) | 200 OK [http://localhost/grading_levels/1/edit?authenticity_token=kwN6EPaKH6JVFuoXykbkzWoxA2CB9%2FdWSHY6b%2BvGcDI%3D]
+
+
+Processing EventController#index (for 127.0.0.1 at 2013-04-05 20:09:36) [GET]
+  Parameters: {"action"=>"index", "controller"=>"event"}
+Rendering template within layouts/application
+Rendering event/index
+Completed in 345ms (View: 128, DB: 186) | 200 OK [http://localhost/event]
+
+
+Processing StudentController#index (for 127.0.0.1 at 2013-04-05 20:10:29) [GET]
+  Parameters: {"action"=>"index", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/index
+Completed in 83ms (View: 59, DB: 6) | 200 OK [http://localhost/student]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-04-05 20:10:32) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"kwN6EPaKH6JVFuoXykbkzWoxA2CB9/dWSHY6b+vGcDI=", "controller"=>"student", "_"=>"", "query"=>"s"}
+Rendering student/search_ajax
+Completed in 28ms (View: 3, DB: 8) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-04-05 20:10:34) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"kwN6EPaKH6JVFuoXykbkzWoxA2CB9/dWSHY6b+vGcDI=", "controller"=>"student", "_"=>"", "query"=>"smi"}
+Rendering student/search_ajax
+Completed in 44ms (View: 11, DB: 8) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#search_ajax (for 127.0.0.1 at 2013-04-05 20:10:35) [POST]
+  Parameters: {"option"=>"active", "action"=>"search_ajax", "authenticity_token"=>"kwN6EPaKH6JVFuoXykbkzWoxA2CB9/dWSHY6b+vGcDI=", "controller"=>"student", "_"=>"", "query"=>"smith"}
+Rendering student/search_ajax
+Completed in 52ms (View: 9, DB: 13) | 200 OK [http://localhost/student/search_ajax]
+
+
+Processing StudentController#profile (for 127.0.0.1 at 2013-04-05 20:10:37) [GET]
+  Parameters: {"action"=>"profile", "id"=>"1", "controller"=>"student"}
+Rendering template within layouts/application
+Rendering student/profile
+Completed in 322ms (View: 280, DB: 17) | 200 OK [http://localhost/student/profile/1]
+
+
+Processing StudentController#profile_pdf (for 127.0.0.1 at 2013-04-05 20:10:44) [GET]
+  Parameters: {"action"=>"profile_pdf", "id"=>"1", "controller"=>"student"}
+***************WICKED***************
+Rendering template within layouts/pdf
+Rendering student/profile_pdf
+Rendering template within layouts/pdf
+Rendering layouts/pdf_header.html.erb
+Rendering template within layouts/pdf
+Rendering layouts/pdf_footer.html.erb
+Sending data profile_pdf.pdf
+Completed in 42709ms (View: 1, DB: 0) | 200 OK [http://localhost/student/profile_pdf/1]
